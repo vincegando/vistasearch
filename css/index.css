@@ -13,3 +13,9 @@
 	margin-top: 52px;
 }
 
+.plain-button {
+	padding-right: 50px;
+	border: none;
+	background: none;
+}
+

@@ -12,7 +12,9 @@
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>	<link rel="stylesheet" type="text/css" href="../css/index.css">
 
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-	<script type="text/javascript" src="../js/index.js"></script>
+	<script type="text/javascript" src="../js/SearchBar.js"></script>
+	<script type="text/javascript" src="../js/SocialMediaManager.js"></script>
+	<script type="text/javascript" src="../js/Parser.js"></script>
 </head>
 <body>
 	<nav class="navbar navbar-default navbar-fixed-top">
@@ -23,11 +25,13 @@
 				  <input type="text" class="form-control" aria-label="..." placeholder="Search a topic...">
 				  <div class="input-group-btn">
 				    <!-- Button and dropdown menu -->
-				    <button class="btn btn-default" type="button"><i class="fa fa-search"></i></button>
+				    <button class="btn btn-default" type="button" onclick="SearchBar.queryText()"><i class="fa fa-search"></i></button>
 						<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false">Filter <span class="caret"></span></button>
 		        <ul class="dropdown-menu dropdown-menu-right" role="menu">
-		          <li><a href="#">Twitter</a></li>
-		          <li><a href="#">Instagram</a></li>
+		          <li><button class="plain-button" type="button" onclick="SearchBar.filter('SocialMediaType.Twitter')">Twitter</button></li>
+		          <li><button class="plain-button" type="button" onclick="SearchBar.filter('SocialMediaType.Instagram')">Instagram</button></li>
+		          <li role="presentation" class="divider"></li>
+		          <li><button class="plain-button" type="button" onclick="SearchBar.filter('SocialMediaType.All')">Clear Filter</button></li>
 		        </ul>
 				  </div>
 				</div>
