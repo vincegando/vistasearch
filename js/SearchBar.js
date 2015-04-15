@@ -18,7 +18,6 @@ var SearchBar = SearchBar || {
 		var text = $('.form-control').val();
 		var parser = new Parser();
 		alert(parser.parseArray(text));
-
 	}
 }
 
@@ -31,4 +30,3 @@ $(document).ready(function() {
 	    }
 	});
 });
-
