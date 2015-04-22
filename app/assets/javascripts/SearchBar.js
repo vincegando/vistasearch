@@ -18,7 +18,7 @@ var SearchBar = SearchBar || {
     var parser = new Parser();
     var userQuery = parser.parseArray(text);
     APIClient.request(userQuery, function(data) {
-      alert(data);
+      console.log(data);
     });
   }
 }
