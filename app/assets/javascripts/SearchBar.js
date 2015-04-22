@@ -16,9 +16,8 @@ var SearchBar = SearchBar || {
   queryText: function() {
     var text = $('.form-control').val();
     var parser = new Parser();
-    alert("hello");
-    //twitter.getSearch({'q':'#haiku','count': 10}, error, success);
-    //alert(parser.parseArray(text));
+    var userQuery = parser.parseArray(text);
+    
   }
 }
 
