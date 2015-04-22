@@ -1,9 +1,9 @@
 class Api::V1::TwitterController < Api::BaseController
   def index
-    #@query = params[:q]
+    @query = params[:q]
 
     # Insert hashtag
-    #@query.map { |term| term.insert(0, '#')  }
+    @query.map { |term| term.insert(0, '#')  }
     client = Twitter::REST::Client.new do |config|
       config.consumer_key        = "6OWnoWaipCATFAenHaPQk0HZn"
       config.consumer_secret     = "23BQDLRRirZM2SWaB3gbwtj2gwWqol1vMfj75DShCGpjteM71P"
