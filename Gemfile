@@ -32,7 +32,7 @@ gem 'twitter'
 
 # Use Unicorn as the app server
 gem 'unicorn'
-
+gem 'rails_12factor', group: :production
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
