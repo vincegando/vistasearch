@@ -7,7 +7,7 @@
 var APIClient = APIClient || {
   request: function(userInput, callback) {
    	$.ajax({
-	  url: "http://localhost:3000/api/v1/twitter",
+	  url: "http://enigmatic-spire-7549.herokuapp.com/api/v1/twitter",
 	  type: 'GET',
 	  dataType: 'json',
 	  data: {q: userInput},
