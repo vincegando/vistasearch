@@ -17,7 +17,9 @@ var SearchBar = SearchBar || {
     var text = $('.form-control').val();
     var parser = new Parser();
     var userQuery = parser.parseArray(text);
-    
+    APIClient.request(userQuery, function(data) {
+      alert(data);
+    });
   }
 }
 
