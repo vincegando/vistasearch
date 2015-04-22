@@ -1,0 +1,21 @@
+/* CSS file for index.html */
+
+.input-group {
+	margin-top: 8px;
+	width: 50%;
+}
+
+.navbar-brand {
+	font-family: "Helvetica Neue"
+}
+
+#content-wrapper {
+	margin-top: 52px;
+}
+
+.plain-button {
+	padding-right: 50px;
+	border: none;
+	background: none;
+}
+
