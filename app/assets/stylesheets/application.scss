@@ -57,15 +57,21 @@
 	margin-left: auto;
 	margin-right: auto;
 	.main-content-list-item {
-		/*border: 10px solid black;*/
 		height: 100px;
-		margin-top: 2px;
-		border: 1px solid black;
+		margin-top: 10px;
 		width: 100%;
 		margin-right: auto;
 		margin-left: auto;
 	}
 }
 
+a:link {
+	color: black;
+}
 
-
+a:hover {
+	text-decoration: none;
+}
+a:active {
+    text-decoration: none;
+}
