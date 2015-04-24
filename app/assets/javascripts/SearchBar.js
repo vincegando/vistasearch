@@ -17,6 +17,7 @@ var SearchBar = SearchBar || {
     var text = $('.form-control').val();
     var parser = new Parser();
     var userQuery = parser.parseArray(text);
+    $('.main-content-list').empty();
     APIClient.request(userQuery, function(data) {
       for(i = 0; i < data.length; i++) {
         UI.layoutTweet(data[i]);

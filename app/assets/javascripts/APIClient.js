@@ -16,6 +16,7 @@ var APIClient = APIClient || {
 			
 		  },
 	  success: function(data) {
+	  	console.log(data);
 			tweetList = getTwitterData(data['tweets']); // add if statement later
 	    callback(tweetList);
 	  },
@@ -40,7 +41,7 @@ function getTwitterData(data){
 
 //UI.layout(tweet);
 var Tweet = function(data){
-	console.log(data);
+	console.log(data.id);
 	this.username = data.user;
 	//this.hashtags = data.hashtags.text;
 	this.text = data.text;

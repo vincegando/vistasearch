@@ -1,6 +1,5 @@
 json.tweets @tweets do |tweet|
-	#puts tweet.to_json 
-	json.id tweet.id
+	json.id tweet.id.to_s
 	json.user tweet.user.screen_name
 	json.text tweet.text
 end
