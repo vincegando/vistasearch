@@ -16,7 +16,6 @@ var APIClient = APIClient || {
 			
 		  },
 	  success: function(data) {
-	  	console.log(data);
 			tweetList = getTwitterData(data['tweets']); // add if statement later
 	    callback(tweetList);
 	  },
@@ -29,7 +28,7 @@ var APIClient = APIClient || {
 
 function getTwitterData(data){
 	//Create an array to hold tweets
-	tweetList = []; 
+	tweetList = [];
 	//Loop through data creating tweets
 	for(var i=0; i<data.length; i++)
 	{
@@ -41,7 +40,6 @@ function getTwitterData(data){
 
 //UI.layout(tweet);
 var Tweet = function(data){
-	console.log(data.id);
 	this.username = data.user;
 	//this.hashtags = data.hashtags.text;
 	this.text = data.text;
@@ -52,8 +50,23 @@ var Tweet = function(data){
 	//this.profile_image = data.statuses.user.profile_image_url; //url
 }
 
-	
+function getInstagramData(data){
+		//create an array to hold instagram posts
+		instagramList = [];
+		//Loop through data creating grams
+		for(var i=0; i<data.length;i++)
+		{
+				var gram = new Gram(data[i]);
+				instagramList.push(gram)
+		}
+		return instagramList; 
+}	
 
+var Gram = function(data){
+	this.username = data.user.username;
+	this.id = data.caption.from.id;
+	this.text = data.caption.text; 
+}
 
 
 
