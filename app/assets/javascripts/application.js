@@ -17,6 +17,11 @@
 
 
 
-
+var UI = UI || {
+  layoutTweet: function(tweet) {
+    var tweetHTML = '<li class=".main-content-list-item"><h1 class="tweet-name">' + tweet.username + '</h1><p class="tweet-text">' + tweet.text + '</p><a href="https://twitter.com/statuses/' + tweet.id + '">Link</a></li>';
+    $('.main-content-list').append(tweetHTML);
+  }
+};
 
 

@@ -40,6 +40,7 @@ function getTwitterData(data){
 
 //UI.layout(tweet);
 var Tweet = function(data){
+	console.log(data);
 	this.username = data.user;
 	//this.hashtags = data.hashtags.text;
 	this.text = data.text;

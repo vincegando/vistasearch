@@ -18,7 +18,9 @@ var SearchBar = SearchBar || {
     var parser = new Parser();
     var userQuery = parser.parseArray(text);
     APIClient.request(userQuery, function(data) {
-      console.log(data);
+      for(i = 0; i < data.length; i++) {
+        UI.layoutTweet(data[i]);
+      }
     });
   }
 }
