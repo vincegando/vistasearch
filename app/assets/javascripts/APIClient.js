@@ -7,7 +7,8 @@
 var APIClient = APIClient || {
   request: function(userInput, callback) {
    	$.ajax({
-	  url: "http://enigmatic-spire-7549.herokuapp.com/api/v1/twitter",
+	  //url: "http://enigmatic-spire-7549.herokuapp.com/api/v1/twitter",
+	  url: "http://localhost:3000/api/v1/twitter",
 	  type: 'GET',
 	  dataType: 'json',
 	  data: {
@@ -15,8 +16,8 @@ var APIClient = APIClient || {
 			
 		  },
 	  success: function(data) {
-		tweetList = getTwitterData(data); // add if statement later
-	    callback(data);
+			tweetList = getTwitterData(data['tweets']); // add if statement later
+	    callback(tweetList);
 	  },
 	  failure: function(error) {
 	    console.log(error);
@@ -31,16 +32,15 @@ function getTwitterData(data){
 	//Loop through data creating tweets
 	for(var i=0; i<data.length; i++)
 	{
-		var tweet = new Tweet(data);
+		var tweet = new Tweet(data[i]);
 		tweetList.push(tweet);
 	}
 	return tweetList; 
-	}
 }
 
 //UI.layout(tweet);
 var Tweet = function(data){
-	this.username = data.user.screen_name;
+	this.username = data.user;
 	//this.hashtags = data.hashtags.text;
 	this.text = data.text;
 	//this.result_type = data.metadata.result_type;
