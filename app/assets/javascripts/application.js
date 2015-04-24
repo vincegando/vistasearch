@@ -19,7 +19,7 @@
 
 var UI = UI || {
   layoutTweet: function(tweet) {
-    var tweetHTML = '<a href="https://twitter.com/'+ tweet.username +'/status/' + tweet.id + '" target="_blank"><li class=".main-content-list-item"><h1 class="tweet-name">' + tweet.username + '<i class="fa fa-twitter"></i></h1><p class="tweet-text">' + tweet.text + '</p></li></a>';
+    var tweetHTML = '<blockquote class="twitter-tweet" lang="en"><a href="https://twitter.com/'+tweet.username+'/status/'+tweet.id+'"></a></blockquote> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>'
     $('.main-content-list').append(tweetHTML);
   }
 };
