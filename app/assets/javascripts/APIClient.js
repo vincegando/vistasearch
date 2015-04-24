@@ -6,6 +6,8 @@
 
 var APIClient = APIClient || {
   request: function(userInput, callback) {
+  	$('.fa-spinner').css("visibility", "visible");
+  	$('.fa-spinner').show("fast");
    	$.ajax({
 	  //url: "http://enigmatic-spire-7549.herokuapp.com/api/v1/twitter",
 	  url: "http://localhost:3000/api/v1/twitter",

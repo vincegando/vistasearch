@@ -17,6 +17,10 @@
 
 
 
+$(document).ready(function() {
+  //$('.fa-spinner').hide('fast'); 
+});
+
 var UI = UI || {
   layoutTweet: function(tweet) {
     var tweetHTML = '<blockquote class="twitter-tweet" lang="en"><a href="https://twitter.com/'+tweet.username+'/status/'+tweet.id+'"></a></blockquote> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>'

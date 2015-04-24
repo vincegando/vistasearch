@@ -22,6 +22,8 @@ var SearchBar = SearchBar || {
       for(i = 0; i < data.length; i++) {
         UI.layoutTweet(data[i]);
       }
+      $('.fa-spinner').css("visibility", "hidden");
+      $('.fa-spinner').hide("fast");
     });
   }
 }
