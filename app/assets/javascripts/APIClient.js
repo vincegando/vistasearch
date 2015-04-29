@@ -9,8 +9,8 @@ var APIClient = APIClient || {
   	$('.fa-spinner').css("visibility", "visible");
   	$('.fa-spinner').show("fast");
    	$.ajax({
-	  //url: "http://enigmatic-spire-7549.herokuapp.com/api/v1/twitter",
-	  url: "http://localhost:3000/api/v1/twitter",
+	  url: "http://enigmatic-spire-7549.herokuapp.com/api/v1/twitter",
+	  //url: "http://localhost:3000/api/v1/twitter",
 	  type: 'GET',
 	  dataType: 'json',
 	  data: {
@@ -42,15 +42,8 @@ function getTwitterData(data){
 
 //UI.layout(tweet);
 var Tweet = function(data){
-	this.username = data.user;
-	this.name = data.name
-	//this.hashtags = data.hashtags.text;
-	this.text = data.text;
-	//this.result_type = data.metadata.result_type;
-	//this.retweet_counter = data.statuses.retweet_count;
 	this.id = data.id;
-	//this.name = data.user.name;
-	//this.profile_image = data.statuses.user.profile_image_url; //url
+	this.username = data.user;
 }
 
 function getInstagramData(data){
