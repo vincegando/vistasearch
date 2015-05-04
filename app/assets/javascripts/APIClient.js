@@ -34,8 +34,18 @@ function getTwitterData(data){
 	//Loop through data creating tweets
 	for(var i=0; i<data.length; i++)
 	{
-		var tweet = new Tweet(data[i]);
+	    var tweet = new Tweet(data[i]);
+	    if(i === 0){
 		tweetList.push(tweet);
+	    }
+	    for(var j=0; j<i; j++){
+		if(data[j] === data[i]){
+		    break;
+		}
+		else{
+		    tweetList.push(tweet);
+		}
+	    }
 	}
 	return tweetList; 
 }
