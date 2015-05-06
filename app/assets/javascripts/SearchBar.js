@@ -9,7 +9,6 @@ var SearchBar = SearchBar || {
   // Set filter for search
   filter: function(type) {
     SocialMediaManager.setFilter(type);
-    alert(SocialMediaManager.currentFilter);
   },
 
   // Get text from the search bar and pass it to parser
@@ -19,9 +18,7 @@ var SearchBar = SearchBar || {
     var userQuery = parser.parseArray(text);
     $('.main-content-list').empty();
     APIClient.request(userQuery, SocialMediaManager.currentFilter,function(data) {
-      for(i = 0; i < data.length; i++) {
-        UI.layoutData(data[i]);
-      }
+      UI.layoutData(data);
       $('.fa-spinner').css("visibility", "hidden");
       $('.fa-spinner').hide("fast");
     });

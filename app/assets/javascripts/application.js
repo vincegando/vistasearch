@@ -21,17 +21,56 @@ $(document).ready(function() {
   //$('.fa-spinner').hide('fast'); 
 });
 
+function getOEmbedInstagram(link, callback) {
+    $.ajax({
+      url: "http://api.instagram.com/oembed?url=" + link + "",
+      type: 'GET',
+      success: function(data) {
+        callback(data);
+      },
+      failure: function(error) {
+        console.log(error);
+      }
+    });
+}
+
 var UI = UI || {
   layoutData: function(data) {
-    if (data instanceof Tweet) {
-      var dataHTML = '<blockquote class="twitter-tweet" lang="en"><a href="https://twitter.com/'+data.username+'/status/'+data.id+'"></a></blockquote> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>'
-      $('.main-content-list').append(dataHTML);
-    } else if(data instanceof Gram) {
-      var dataHTML = '<h1>Instagram</h1>';
-      $('.main-content-list').append(dataHTML);
+    var list = [];
+    for (var i = 0; i < data.length; i++) {
+     var stuff = data[i];
+     if (stuff instanceof Tweet) {
+        var dataHTML = '<blockquote class="twitter-tweet" lang="en"><a href="https://twitter.com/'+stuff.username+'/status/'+stuff.id+'"></a></blockquote> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>'
+        list.push(dataHTML);
+      } else if(stuff instanceof Gram) {
+        var dataHTML = stuff['link'];
+        list.push(dataHTML);
+      }     
     }
-    
+    shuffle(list);
+    for (var i = 0; i < list.length; i++) {
+      $('.main-content-list').append(list[i]);
+    }
   }
 };
 
+
+function shuffle(array) {
+  var currentIndex = array.length, temporaryValue, randomIndex ;
+
+  // While there remain elements to shuffle...
+  while (0 !== currentIndex) {
+
+    // Pick a remaining element...
+    randomIndex = Math.floor(Math.random() * currentIndex);
+    currentIndex -= 1;
+
+    // And swap it with the current element.
+    temporaryValue = array[currentIndex];
+    array[currentIndex] = array[randomIndex];
+    array[randomIndex] = temporaryValue;
+  }
+
+  return array;
+}
 

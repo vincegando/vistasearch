@@ -9,22 +9,21 @@ var APIClient = APIClient || {
   	$('.fa-spinner').css("visibility", "visible");
   	$('.fa-spinner').show("fast");
    	$.ajax({
-	  //url: "http://vistasearch.herokuapp.com/api/v1/search",
-	  url: "http://localhost:3000/api/v1/search",
-	  type: 'GET',
-	  dataType: 'json',
-	  data: {
-			q: userInput,
-			filter: filter
-		},
-	  success: function(data) {
-	  	console.log(data['posts']);
-	    callback(createData(data['posts']));
-	  },
-	  failure: function(error) {
-	    console.log(error);
-	  }
-	});
+		  //url: "http://vistasearch.herokuapp.com/api/v1/search",
+		  url: "http://localhost:3000/api/v1/search",
+		  type: 'GET',
+		  dataType: 'json',
+		  data: {
+				q: userInput,
+				filter: filter
+			},
+		  success: function(data) {
+		    callback(createData(data['posts']));
+		  },
+		  failure: function(error) {
+		    console.log(error);
+		  }
+		});
   }
 };
 
@@ -83,9 +82,7 @@ var Tweet = function(data){
 // }	
 
 var Gram = function(data){
-	this.username = data.user;
-	//this.id = data.caption.from.id;
-	this.url = data.image_url
+	this.link = data.link;
 }
 
 

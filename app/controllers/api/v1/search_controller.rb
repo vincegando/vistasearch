@@ -5,6 +5,7 @@ class Api::V1::SearchController < Api::BaseController
   def index
     @response = []
     @limits = params[:filter]
+    @limits = [@limits] unless @limits.is_a?(Array)
     #convert to array
     @classes = []
     @limits.each { |class_name| @classes.push(class_for_name(class_name)) }
@@ -19,11 +20,11 @@ class Api::V1::SearchController < Api::BaseController
   end
 
   def class_for_name(class_name)
-    if class_name == "Twitter"
+    if class_name == "Twitter" or class_name == "SocialMediaType.Twitter"
       return TwitterService.new
-    elsif class_name == "Instagram"
+    elsif class_name == "Instagram" or class_name == "SocialMediaType.Instagram"
       return InstagramService.new
-    elsif class_name == "Reddit"
+    elsif class_name == "Reddit" or class_name == "SocialMediaType.Reddit"
       return RedditService.new      
     end
   end
