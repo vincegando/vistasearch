@@ -20,7 +20,8 @@ class TwitterService
   def self.format_json(tweets)
     formatted_tweets = []
     tweets.each { |tweet| formatted_tweets.push({ :id => tweet.id.to_s, :user => tweet.user.screen_name, :type => "Twitter"  }) }
-    return formatted_tweets
+    rm_dup = formatted_tweets.uniq
+    return rm_dup
   end
 
 end
