@@ -18,9 +18,9 @@ var SearchBar = SearchBar || {
     var parser = new Parser();
     var userQuery = parser.parseArray(text);
     $('.main-content-list').empty();
-    APIClient.request(userQuery, function(data) {
+    APIClient.request(userQuery, SocialMediaManager.currentFilter,function(data) {
       for(i = 0; i < data.length; i++) {
-        UI.layoutTweet(data[i]);
+        UI.layoutData(data[i]);
       }
       $('.fa-spinner').css("visibility", "hidden");
       $('.fa-spinner').hide("fast");
