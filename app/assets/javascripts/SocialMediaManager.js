@@ -4,9 +4,9 @@
  *
  */
 var SocialMediaType = {
-  All: 0,
-  Twitter: 1,
-  Instagram: 2
+  All: ["Twitter", "Instagram"],
+  Twitter: ["Twitter"],
+  Instagram: ["Instagram"]
 };
 
 

@@ -23,6 +23,8 @@ class Api::V1::SearchController < Api::BaseController
       return TwitterService.new
     elsif class_name == "Instagram"
       return InstagramService.new
+    elsif class_name == "Reddit"
+      return RedditService.new      
     end
   end
 end
