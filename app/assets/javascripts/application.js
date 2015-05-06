@@ -22,9 +22,15 @@ $(document).ready(function() {
 });
 
 var UI = UI || {
-  layoutTweet: function(tweet) {
-    var tweetHTML = '<blockquote class="twitter-tweet" lang="en"><a href="https://twitter.com/'+tweet.username+'/status/'+tweet.id+'"></a></blockquote> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>'
-    $('.main-content-list').append(tweetHTML);
+  layoutData: function(data) {
+    if (data instanceof Tweet) {
+      var dataHTML = '<blockquote class="twitter-tweet" lang="en"><a href="https://twitter.com/'+data.username+'/status/'+data.id+'"></a></blockquote> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>'
+      $('.main-content-list').append(dataHTML);
+    } else if(data instanceof Gram) {
+      var dataHTML = '<h1>Instagram</h1>';
+      $('.main-content-list').append(dataHTML);
+    }
+    
   }
 };
 
