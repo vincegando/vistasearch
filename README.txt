@@ -19,3 +19,9 @@ Running on a server:
 8. Click deploy
 9. Now your application is up and running.
 
+How to use:
+1. In the search box type in what you want topic you want to search 
+2. Click the filter button to decide whether you want Twitter, Instagram, etc
+3. Press enter or click the magnifying glass 
+4. View results
+
