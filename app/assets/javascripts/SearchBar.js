@@ -32,19 +32,6 @@ var SearchBar = SearchBar || {
       $('.main-content-list').empty();
       APIClient.request(userQuery, SocialMediaManager.currentFilter,function(data) {
         UI.layoutData(data);
-	// for(i = 0; i < data.length; i++) {
-	//   if (i === 0){
-	//       UI.layoutData(data[i]);
-	//   }
-	//   for(var j=0; j<1; j++){
-	//       if(data[j] === data[i]){
-	// 	  break;
-	//       }
-	//       else{
-	// 	  UI.layoutData(data[i]);
-	//       }
-	//   }
-	// }
 	  $('.fa-spinner').css("visibility", "hidden");
 	  $('.fa-spinner').hide("fast");
       });
