@@ -29,57 +29,35 @@ var APIClient = APIClient || {
 
 function createData(json) {
 	dataList = [];
+	var truth = false;
 	for (var i = 0; i < json.length; i++) {
 		type = json[i]['type'];
+		truth = false;
 		if (type == "Twitter") {
-			dataList.push(new Tweet(json[i]));
-		} else if (type == "Instagram") {
+			possibleTweet = new Tweet(json[i]);
+			for (var j=0; j < i; j++){
+				if(possibleTweet.id === dataList[j].id){
+					truth = true;
+				}
+			}
+			if(truth === false){
+				dataList.push(possibleTweet);
+			}
+		}
+
+		if (type == "Instagram") {
 			dataList.push(new Gram(json[i]));
 		}
 	}
-
 	return dataList;
 }
 
-// function getTwitterData(data){
-// 	//Create an array to hold tweets
-// 	tweetList = [];
-// 	//Loop through data creating tweets
-// 	for(var i=0; i<data.length; i++)
-// 	{
-// 	    var tweet = new Tweet(data[i]);
-// 	    if(i === 0){
-// 		tweetList.push(tweet);
-// 	    }
-// 	    for(var j=0; j<i; j++){
-// 		if(data[j] === data[i]){
-// 		    break;
-// 		}
-// 		else{
-// 		    tweetList.push(tweet);
-// 		}
-// 	    }
-// 	}
-// 	return tweetList; 
-// }
 
 //UI.layout(tweet);
 var Tweet = function(data){
 	this.id = data.id;
 	this.username = data.user;
 }
-
-// function getInstagramData(data){
-// 		//create an array to hold instagram posts
-// 		instagramList = [];
-// 		//Loop through data creating grams
-// 		for(var i=0; i<data.length;i++)
-// 		{
-// 				var gram = new Gram(data[i]);
-// 				instagramList.push(gram)
-// 		}
-// 		return instagramList; 
-// }	
 
 var Gram = function(data){
 	this.link = data.link;
