@@ -20,6 +20,7 @@ var SocialMediaType = {
 var SocialMediaManager = SocialMediaManager || {
   currentFilter: SocialMediaType.All,
 
+// function to change the filter depending on  what the user chooses on the Search Bar
   setFilter: function(filter) {
     SocialMediaManager.currentFilter = filter;
   }

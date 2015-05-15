@@ -20,7 +20,6 @@ $(document).ready(function() {
   //$('.fa-spinner').hide('fast'); 
 });
 
-
 /*
 *	A class for interacting with the UI to display the embedded tweets and instagram posts.
 *	

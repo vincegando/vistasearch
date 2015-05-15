@@ -14,6 +14,8 @@ var SearchBar = SearchBar || {
   // Parse the input and pass the userQuery to the APIClient
   // Call the request data functionfrom Social Media APIs
   // Also call the User Interface layout data function and
+  // @param parser is of type Parser
+
   queryText: function() {
     var text = $('.form-control').val();
     var parser = new Parser();
