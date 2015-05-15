@@ -15,8 +15,8 @@ var APIClient = APIClient || {
   	// success is a function that runs createData on a successfull ajax request 
   	// failure is a function that logs the error if the request fails
    	$.ajax({
-		  url: "http://vistasearch.herokuapp.com/api/v1/search",
-		  //url: "http://localhost:3000/api/v1/search",
+		  //url: "http://vistasearch.herokuapp.com/api/v1/search",
+		  url: "http://localhost:3000/api/v1/search",
 		  type: 'GET',
 		  dataType: 'json',
 		  data: {
@@ -33,8 +33,14 @@ var APIClient = APIClient || {
   }
 };
 /**
-	This function creates
+	This function creates the Tweet and Gram objects to be added into a list of
+	posts as long as there are no duplicate tweets
+	@param dataList of type array
+	@param truth of type boolean
+	@param type is a string
+	@param possibleTweet is an instanceof the Tweet object	
 */
+
 function createData(json) {
 	dataList = [];
 	var truth = false;
@@ -62,11 +68,17 @@ function createData(json) {
 
 
 //UI.layout(tweet);
+
+// Tweet object for storing Twitter data
+// @param id is a string
+// @param username is a string
 var Tweet = function(data){
 	this.id = data.id;
 	this.username = data.user;
 }
 
+// Gram object for storing Instagram data
+// @param link is a string
 var Gram = function(data){
 	this.link = data.link;
 }
