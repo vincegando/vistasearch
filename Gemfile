@@ -32,6 +32,8 @@ gem 'httparty'
 
 gem 'redditkit', '~> 1.0.1'
 
+gem 'pg', group: :production
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
