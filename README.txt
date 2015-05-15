@@ -53,3 +53,5 @@ How to use:
 3. Press enter or click the magnifying glass 
 4. View results
 
+Viewing the site:
+http://vistasearch.herokuapp.com/
