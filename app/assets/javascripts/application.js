@@ -40,20 +40,27 @@ var UI = UI || {
     for (var i = 0; i < data.length; i++) {
      var stuff = data[i];
      if (stuff instanceof Tweet) {
-        var dataHTML = '<blockquote class="twitter-tweet" lang="en"><a href="https://twitter.com/'+stuff.username+'/status/'+stuff.id+'"></a></blockquote> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>'
-        list.push(dataHTML);
+        var dataHTML = '<blockquote class="twitter-tweet" lang="en"><a href="https://twitter.com/'+stuff.username+'/status/'+stuff.id+'"></a></blockquote><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>'
+        if (list.indexOf(dataHTML) <= -1) {
+          list.push(dataHTML);
+        }
       } else if(stuff instanceof Gram) {
         var dataHTML = stuff['link'];
-        list.push(dataHTML);
+        if (list.indexOf(dataHTML) <= -1) {
+          list.push(dataHTML);
+        }
       }     
     }
     shuffle(list);
+
     for (var i = 0; i < list.length; i++) {
+      console.log(list[i]);
+      var f = document.getElementsByClassName("main-content-list")[0];
+
       $('.main-content-list').append(list[i]);
     }
   }
 };
-
 
 function shuffle(array) {
   var currentIndex = array.length, temporaryValue, randomIndex ;
