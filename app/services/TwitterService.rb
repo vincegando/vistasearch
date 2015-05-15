@@ -1,11 +1,18 @@
 class TwitterService
   def initialize()
     @client = Twitter::REST::Client.new do |config|
-      auth_json = JSON.parse(IO.read(Rails.root.join('auth.json')))
-      config.consumer_key        = auth_json["twitter_consumer_key"]
-      config.consumer_secret     = auth_json["twitter_consumer_secret"]
-      config.access_token        = auth_json["twitter_access_token"]
-      config.access_token_secret = auth_json["twitter_access_token_secret"]
+      if Rails.env.production?
+        config.consumer_key        = ENV["twitter_consumer_key"]
+        config.consumer_secret     = ENV["twitter_consumer_secret"]
+        config.access_token        = ENV["twitter_access_token"]
+        config.access_token_secret = ENV["twitter_access_token_secret"]
+      else
+        auth_json = JSON.parse(IO.read(Rails.root.join('auth.json')))
+        config.consumer_key        = auth_json["twitter_consumer_key"]
+        config.consumer_secret     = auth_json["twitter_consumer_secret"]
+        config.access_token        = auth_json["twitter_access_token"]
+        config.access_token_secret = auth_json["twitter_access_token_secret"]
+      end
     end
   end
 
