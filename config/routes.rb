@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'test' => 'frontendtest#index'
+
   root 'home#index'
 
   namespace :api do

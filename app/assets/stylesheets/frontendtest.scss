@@ -1,0 +1,31 @@
+.run-tests-btn {
+	margin-left: 25%;
+	top: 25px;
+	position: absolute;
+}
+
+#title-area {
+	height: 10vh;
+	width: 100%;
+	top: 0;
+}
+
+#test-list {
+	width: 80vw;
+	height: 90vh;
+	list-style-type: none;
+}
+
+.pass {
+	color: green;
+	border: 1px solid black;
+	font-size: 1.2em;
+	padding: 5px 5px 5px 5px;
+}
+
+.fail {
+	color: red;
+	border: 1px solid black;
+	font-size: 1.2em;
+	padding: 5px 5px 5px 5px;
+}
