@@ -23,9 +23,10 @@ var SearchBar = SearchBar || {
     $('.main-content-list').empty();
     APIClient.request(userQuery, SocialMediaManager.currentFilter, function(data) {
       UI.layoutData(data);
-
-      $('.fa-spinner').css("visibility", "hidden");  // This is the animated spinner that appears
-						     // when a search is run. Here it is being hidden
+      
+      // This is the animated spinner that appears
+      // when a search is run. Here it is being hidden
+      $('.fa-spinner').css("visibility", "hidden");
       $('.fa-spinner').hide("fast");
     });
   }

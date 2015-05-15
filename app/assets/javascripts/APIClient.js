@@ -8,6 +8,12 @@ var APIClient = APIClient || {
   request: function(userInput, filter, callback) {
   	$('.fa-spinner').css("visibility", "visible");
   	$('.fa-spinner').show("fast");
+  	// @param url type string
+  	// @param type of type string
+  	// @param dataType of type string
+  	// @param data of type array
+  	// success is a function that runs createData on a successfull ajax request 
+  	// failure is a function that logs the error if the request fails
    	$.ajax({
 		  //url: "http://vistasearch.herokuapp.com/api/v1/search",
 		  url: "http://localhost:3000/api/v1/search",
@@ -26,7 +32,9 @@ var APIClient = APIClient || {
 		});
   }
 };
-
+/**
+	This function creates
+*/
 function createData(json) {
 	dataList = [];
 	var truth = false;
