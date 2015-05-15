@@ -2,10 +2,10 @@ require 'httparty'
 
 class InstagramService
   def initialize()
-    auth_json = JSON.parse( IO.read(Rails.root.join('auth.json')))
     if Rails.env.production?
       @auth = ENV["instagram_auth"]
     else
+      auth_json = JSON.parse( IO.read(Rails.root.join('auth.json')))
       @auth = auth_json["instagram_auth"]
     end
   end
