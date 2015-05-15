@@ -2,7 +2,8 @@ require 'httparty'
 
 class InstagramService
   def initialize()
-    @auth = "1b6fa53b9b444913ac0d139756de9925"
+    auth_json = JSON.parse( IO.read(Rails.root.join('auth.json')))
+    @auth = auth_json["instagram_auth"]
   end
 
   def search_for_tags(query)

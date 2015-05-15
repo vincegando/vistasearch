@@ -1,10 +1,11 @@
 class TwitterService
   def initialize()
     @client = Twitter::REST::Client.new do |config|
-      config.consumer_key        = "6OWnoWaipCATFAenHaPQk0HZn"
-      config.consumer_secret     = "23BQDLRRirZM2SWaB3gbwtj2gwWqol1vMfj75DShCGpjteM71P"
-      config.access_token        = "2795234383-zpqIh5nNLlKnitaAj5gktWHtqHDdw0Nwv8mrZuh"
-      config.access_token_secret = "l5Zn2Mb9rlAiR963sR0uTCxKMHQlRF8PNLGZ9JVnysDYr"
+      auth_json = JSON.parse(IO.read(Rails.root.join('auth.json')))
+      config.consumer_key        = auth_json["twitter_consumer_key"]
+      config.consumer_secret     = auth_json["twitter_consumer_secret"]
+      config.access_token        = auth_json["twitter_access_token"]
+      config.access_token_secret = auth_json["twitter_access_token_secret"]
     end
   end
 
