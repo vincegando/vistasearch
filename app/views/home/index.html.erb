@@ -1,1 +1,25 @@
-<div></div>
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">VistaSearch</a>
+      <div class="input-group">
+        <input type="text" class="form-control" aria-label="..." placeholder="Search a topic...">
+        <div class="input-group-btn">
+          <!-- Button and dropdown menu -->
+          <button class="btn btn-default" type="button" onclick="SearchBar.queryText()"><i class="fa fa-search"></i></button>
+          <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false">Filter <span class="caret"></span></button>
+          <ul class="dropdown-menu dropdown-menu-right" role="menu">
+            <li><button class="plain-button" type="button" onclick="SearchBar.filter('SocialMediaType.Twitter')">Twitter</button></li>
+            <li><button class="plain-button" type="button" onclick="SearchBar.filter('SocialMediaType.Instagram')">Instagram</button></li>
+            <li role="presentation" class="divider"></li>
+            <li><button class="plain-button" type="button" onclick="SearchBar.filter('SocialMediaType.All')">Clear Filter</button></li>
+          </ul>
+        </div>
+      </div>
+  </div>
+</nav>
+<div id="content-wrapper">
+  <i class="fa fa-spinner fa-pulse fa-3x"></i>
+  <ul class="main-content-list">
+  </ul>
+</div>
