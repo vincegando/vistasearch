@@ -1,4 +1,7 @@
-// we are making a class to grab the words in search box 
+/**
+	Class to grab whatever is entered in the Search bar and parse it into an array of words. The words are split by spaces.
+	@param
+*/
 var Parser = function(keyword) {
   this.keyword = keyword;    // this is the phrase 
  };

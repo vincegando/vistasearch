@@ -16,25 +16,21 @@
 //= require_tree .
 
 
-
 $(document).ready(function() {
   //$('.fa-spinner').hide('fast'); 
 });
 
-function getOEmbedInstagram(link, callback) {
-    $.ajax({
-      url: "http://api.instagram.com/oembed?url=" + link + "",
-      type: 'GET',
-      success: function(data) {
-        callback(data);
-      },
-      failure: function(error) {
-        console.log(error);
-      }
-    });
-}
 
+/*
+*	A class for interacting with the UI to display the embedded tweets and instagram posts.
+*	
+*/
 var UI = UI || {
+
+//  Function to push the HTML for each respective tweet and gram to the main-content-list
+//  @param list to accept strings of HTML text
+//  @param stuff is an item from the data array and is either an instance of Tweet or Gram
+//  @param dataHTML is a string that is added to the list varaible to
   layoutData: function(data) {
     var list = [];
     for (var i = 0; i < data.length; i++) {
@@ -62,6 +58,12 @@ var UI = UI || {
   }
 };
 
+// Shuffle function shuffles the list that is passed to the main-content-list so that it is displayed
+// in mixed order on the UI
+// @params currentIndex an int and the length of the array
+// @params temporaryValue holds the object from the array
+// @params randomIndex int that is picked randomly
+// @return array
 function shuffle(array) {
   var currentIndex = array.length, temporaryValue, randomIndex ;
 
