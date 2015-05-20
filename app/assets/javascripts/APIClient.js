@@ -42,12 +42,13 @@ var APIClient = APIClient || {
 */
 
 function createData(json) {
+	console.log(json);
 	dataList = [];
 	var truth = false;
 	for (var i = 0; i < json.length; i++) {
 		type = json[i]['type'];
 		truth = false;
-		if (type == "Twitter") {
+		if (type === "Twitter") {
 			possibleTweet = new Tweet(json[i]);
 			for (var j=0; j < i; j++){
 				if(possibleTweet.id === dataList[j].id){
@@ -59,10 +60,10 @@ function createData(json) {
 			}
 		}
 
-		if (type == "Instagram") {
+		if (type === "Instagram") {
 			dataList.push(new Gram(json[i]));
 		}
-		if(type == "Soundcloud"){
+		if(type === "Soundcloud"){
 			dataList.push(new Song(json[i]))
 		}
 	}

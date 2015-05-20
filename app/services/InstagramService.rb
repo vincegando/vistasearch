@@ -11,7 +11,7 @@ class InstagramService
   end
 
   def search_for_tags(query)
-    url = "https://api.instagram.com/v1/tags/#{query.first}/media/recent.json?client_id=#{@auth}&count=10"
+    url = "https://api.instagram.com/v1/tags/#{query.first}/media/recent.json?client_id=#{@auth}&count=5"
     r = HTTParty.get(url)
     return InstagramService.format_json(JSON.parse(r.body)['data'])
   end

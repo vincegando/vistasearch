@@ -18,7 +18,7 @@ class TwitterService
 
   def search_for_tags(query)
     query.map { |term| term.insert(0,'#')  }
-    response = @client.search("#{query.join(' ')}", result_type: "recent").take(10)
+    response = @client.search("#{query.join(' ')}", result_type: "recent").take(5)
     query.map { |term| term[0] = '' }
     return TwitterService.format_json(response)
   end
