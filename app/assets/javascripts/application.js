@@ -44,7 +44,14 @@ var UI = UI || {
         if (list.indexOf(dataHTML) <= -1) {
           list.push(dataHTML);
         }
-      }     
+      }
+		else if(stuff instanceof Song){
+			var dataHTML = stuff['link'];
+			if(list.indexOf(dataHTML)<=-1){
+				list.push(dataHTML);
+				}
+			}
+			
     }
     shuffle(list);
 

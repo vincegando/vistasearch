@@ -62,6 +62,9 @@ function createData(json) {
 		if (type == "Instagram") {
 			dataList.push(new Gram(json[i]));
 		}
+		if(type == "Soundcloud"){
+			dataList.push(new Song(json[i]))
+		}
 	}
 	return dataList;
 }
@@ -83,6 +86,8 @@ var Gram = function(data){
 	this.link = data.link;
 }
 
-
+var Song = function(data){
+	this.link = data.link;
+}
 
   
