@@ -1,6 +1,6 @@
 require "TwitterService"
 require "InstagramService"
-require "RedditService"
+require "SoundcloudService"
 
 class Api::V1::SearchController < Api::BaseController
   def index
@@ -23,8 +23,8 @@ class Api::V1::SearchController < Api::BaseController
       TwitterService.new
     elsif class_name == "Instagram" or class_name == "SocialMediaType.Instagram"
       InstagramService.new
-    elsif class_name == "Reddit" or class_name == "SocialMediaType.Reddit"
-      RedditService.new
+    elsif class_name == "Soundcloud" or class_name == "SocialMediaType.Soundcloud"
+      SoundcloudService.new
     end
   end
 end
