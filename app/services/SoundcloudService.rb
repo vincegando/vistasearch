@@ -6,7 +6,7 @@ class SoundcloudService
       j = JSON.parse( IO.read(Rails.root.join('auth.json')))
       @auth = j['soundcloud_auth']
     else
-      @auth = ENV['SOUNDCLOUD_AUTH']
+      @auth = ENV['soundcloud_auth']
     end
   end
 
