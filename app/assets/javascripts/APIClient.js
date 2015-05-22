@@ -15,8 +15,8 @@ var APIClient = APIClient || {
   	// success is a function that runs createData on a successfull ajax request 
   	// failure is a function that logs the error if the request fails
    	$.ajax({
-		  //url: "http://vistasearch.herokuapp.com/api/v1/search",
-		  url: "http://localhost:3000/api/v1/search",
+		  url: "http://vistasearch.herokuapp.com/api/v1/search",
+		  //url: "http://localhost:3000/api/v1/search",
 		  type: 'GET',
 		  dataType: 'json',
 		  data: {
