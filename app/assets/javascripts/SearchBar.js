@@ -10,6 +10,9 @@ var SearchBar = SearchBar || {
     SocialMediaManager.setFilter(type);
   },
 
+  selectText: function() {
+    document.getElementsByClassName("plain-button").style.color = "red";
+  }
   // Get text from the search bar and pass it to parser
   // Parse the input and pass the userQuery to the APIClient
   // Call the request data functionfrom Social Media APIs
