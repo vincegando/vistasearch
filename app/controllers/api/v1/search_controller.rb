@@ -6,7 +6,7 @@ class Api::V1::SearchController < Api::BaseController
   def index
     @response = []
     @limits = params[:filter]
-    @limits = ["Twitter", "Instagram"] if @limits.first == "SocialMediaType.All"
+    @limits = ["Twitter", "Instagram", "Soundcloud"] if @limits == "SocialMediaType.All"
     @limits = [@limits] unless @limits.is_a?(Array)
     #convert to array
     @classes = []

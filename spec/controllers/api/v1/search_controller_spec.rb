@@ -26,9 +26,9 @@ RSpec.describe Api::V1::SearchController, :type => :controller do
     end
 
     it "deals with no filter correctly" do
-      get :index, format: :json, q: ["surf"], filter: ["SocialMediaType.All"]
+      get :index, format: :json, q: ["surf"], filter: "SocialMediaType.All"
       flag = true
-      json["posts"].each { |posts| flag = (posts["type"] == "Twitter" or posts["type"] == "Instagram" or posts["type"] == "Reddit") }
+      json["posts"].each { |posts| flag = (posts["type"] == "Twitter" or posts["type"] == "Instagram" or posts["type"] == "Soundcloud") }
       expect(flag).to be true
     end
   end
