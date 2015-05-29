@@ -6,13 +6,14 @@ var SearchBar = SearchBar || {
 
   // Set filter for search
   // @param type is either All, Twitter, or Instagram
-  filter: function(type) {
+  // @param index the index of the button
+  filter: function(type, index) {
+    $('.plain-button').css('color', 'black');
     SocialMediaManager.setFilter(type);
+    if (index < 3) {
+      $('.plain-button:eq('+index+')').css('color', 'red');
+    }
   },
-
-  selectText: function() {
-    document.getElementsByClassName("plain-button").style.color = "red";
-  }
   // Get text from the search bar and pass it to parser
   // Parse the input and pass the userQuery to the APIClient
   // Call the request data functionfrom Social Media APIs

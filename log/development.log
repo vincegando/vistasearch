@@ -37630,3 +37630,2004 @@ Processing by Api::V1::SearchController#index as JSON
   Parameters: {"q"=>["hello"], "filter"=>["Twitter", "Instagram", "Soundcloud"]}
   Rendered api/v1/search/index.json.jbuilder (3.2ms)
 Completed 200 OK in 3684ms (Views: 7.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-05-28 21:46:09 -0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 396ms (Views: 386.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/api/base.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-05-28 21:46:10 -0700
+
+
+Started GET "/assets/api/v1/instagram.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-05-28 21:46:10 -0700
+
+
+Started GET "/assets/api/v1/search.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-05-28 21:46:10 -0700
+
+
+Started GET "/assets/api/v1/twitter.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-05-28 21:46:10 -0700
+
+
+Started GET "/assets/frontendtest.self-ac4e657fb0247a1b7e0340ed48864828bb4febb4b63d798bbe1dd0f679c6b296.css?body=1" for ::1 at 2015-05-28 21:46:10 -0700
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-05-28 21:46:10 -0700
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-05-28 21:46:10 -0700
+
+
+Started GET "/assets/application.self-f259c97789d07c6137b1a0679a74a979d6409a0c0c99479e70a4d43b3ed290c1.css?body=1" for ::1 at 2015-05-28 21:46:10 -0700
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-05-28 21:46:10 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-05-28 21:46:10 -0700
+
+
+Started GET "/assets/APIClient.self-b28747fcbf1e07722428dfac64e8942b26a6d217221c9a69ada063ccdef8ae82.js?body=1" for ::1 at 2015-05-28 21:46:10 -0700
+
+
+Started GET "/assets/Parser.self-d24fee10c28ea634d391b0f4c0f880fa248b87879b13424b2ccdf9fe331414d3.js?body=1" for ::1 at 2015-05-28 21:46:10 -0700
+
+
+Started GET "/assets/SearchBar.self-9a187e88d2667d584dc36bc4fdcbd8087a08b5090d5836637a46921e9958c5d2.js?body=1" for ::1 at 2015-05-28 21:46:10 -0700
+
+
+Started GET "/assets/SocialMediaManager.self-7d2f46fd825bc8b6efa9c198438a6e3306186f9e8641c20d52741c54fb430253.js?body=1" for ::1 at 2015-05-28 21:46:10 -0700
+
+
+Started GET "/assets/api/base.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-05-28 21:46:10 -0700
+
+
+Started GET "/assets/api/v1/instagram.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-05-28 21:46:10 -0700
+
+
+Started GET "/assets/api/v1/search.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-05-28 21:46:10 -0700
+
+
+Started GET "/assets/api/v1/twitter.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-05-28 21:46:10 -0700
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for ::1 at 2015-05-28 21:46:10 -0700
+
+
+Started GET "/assets/test.self-91d1a6c5d9dedc076092464101510fae28b3f293d9fae49669cee664905cde13.js?body=1" for ::1 at 2015-05-28 21:46:10 -0700
+
+
+Started GET "/assets/application.self-ddbf177977ba26cd2c1b1eb26af2efce4da86e57a77ebfd1047e49bb85d11f33.js?body=1" for ::1 at 2015-05-28 21:46:10 -0700
+
+
+Started GET "/" for ::1 at 2015-05-28 21:46:27 -0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 161ms (Views: 160.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/api/base.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-05-28 21:46:27 -0700
+
+
+Started GET "/assets/api/v1/instagram.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-05-28 21:46:27 -0700
+
+
+Started GET "/assets/api/v1/search.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-05-28 21:46:27 -0700
+
+
+Started GET "/assets/api/v1/twitter.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-05-28 21:46:27 -0700
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-05-28 21:46:27 -0700
+
+
+Started GET "/assets/frontendtest.self-ac4e657fb0247a1b7e0340ed48864828bb4febb4b63d798bbe1dd0f679c6b296.css?body=1" for ::1 at 2015-05-28 21:46:27 -0700
+
+
+Started GET "/assets/application.self-f259c97789d07c6137b1a0679a74a979d6409a0c0c99479e70a4d43b3ed290c1.css?body=1" for ::1 at 2015-05-28 21:46:27 -0700
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-05-28 21:46:27 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-05-28 21:46:27 -0700
+
+
+Started GET "/assets/Parser.self-d24fee10c28ea634d391b0f4c0f880fa248b87879b13424b2ccdf9fe331414d3.js?body=1" for ::1 at 2015-05-28 21:46:27 -0700
+
+
+Started GET "/assets/api/base.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-05-28 21:46:27 -0700
+
+
+Started GET "/assets/api/v1/instagram.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-05-28 21:46:27 -0700
+
+
+Started GET "/assets/api/v1/twitter.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-05-28 21:46:27 -0700
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-05-28 21:46:27 -0700
+
+
+Started GET "/assets/APIClient.self-b28747fcbf1e07722428dfac64e8942b26a6d217221c9a69ada063ccdef8ae82.js?body=1" for ::1 at 2015-05-28 21:46:27 -0700
+
+
+Started GET "/assets/SocialMediaManager.self-7d2f46fd825bc8b6efa9c198438a6e3306186f9e8641c20d52741c54fb430253.js?body=1" for ::1 at 2015-05-28 21:46:27 -0700
+
+
+Started GET "/assets/SearchBar.self-cf46d451a4841576862191202cf5e65c97bdeb6aad25237db9972a1b43a1e53b.js?body=1" for ::1 at 2015-05-28 21:46:27 -0700
+
+
+Started GET "/assets/api/v1/search.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-05-28 21:46:27 -0700
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for ::1 at 2015-05-28 21:46:27 -0700
+
+
+Started GET "/assets/test.self-91d1a6c5d9dedc076092464101510fae28b3f293d9fae49669cee664905cde13.js?body=1" for ::1 at 2015-05-28 21:46:27 -0700
+
+
+Started GET "/assets/application.self-ddbf177977ba26cd2c1b1eb26af2efce4da86e57a77ebfd1047e49bb85d11f33.js?body=1" for ::1 at 2015-05-28 21:46:27 -0700
+
+
+Started GET "/" for ::1 at 2015-05-28 21:46:37 -0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 217ms (Views: 216.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/api/base.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-05-28 21:46:37 -0700
+
+
+Started GET "/assets/api/v1/instagram.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-05-28 21:46:37 -0700
+
+
+Started GET "/assets/api/v1/search.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-05-28 21:46:37 -0700
+
+
+Started GET "/assets/api/v1/twitter.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-05-28 21:46:37 -0700
+
+
+Started GET "/assets/frontendtest.self-ac4e657fb0247a1b7e0340ed48864828bb4febb4b63d798bbe1dd0f679c6b296.css?body=1" for ::1 at 2015-05-28 21:46:37 -0700
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-05-28 21:46:37 -0700
+
+
+Started GET "/assets/application.self-f259c97789d07c6137b1a0679a74a979d6409a0c0c99479e70a4d43b3ed290c1.css?body=1" for ::1 at 2015-05-28 21:46:37 -0700
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-05-28 21:46:37 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-05-28 21:46:37 -0700
+
+
+Started GET "/assets/Parser.self-d24fee10c28ea634d391b0f4c0f880fa248b87879b13424b2ccdf9fe331414d3.js?body=1" for ::1 at 2015-05-28 21:46:37 -0700
+
+
+Started GET "/assets/SocialMediaManager.self-7d2f46fd825bc8b6efa9c198438a6e3306186f9e8641c20d52741c54fb430253.js?body=1" for ::1 at 2015-05-28 21:46:37 -0700
+
+
+Started GET "/assets/api/v1/instagram.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-05-28 21:46:37 -0700
+
+
+Started GET "/assets/api/v1/twitter.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-05-28 21:46:37 -0700
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-05-28 21:46:37 -0700
+
+
+Started GET "/assets/APIClient.self-b28747fcbf1e07722428dfac64e8942b26a6d217221c9a69ada063ccdef8ae82.js?body=1" for ::1 at 2015-05-28 21:46:37 -0700
+
+
+Started GET "/assets/SearchBar.self-cd06d2936b74928ceffc9974a7d08e466bfd4cc690e86be55999e63573885b36.js?body=1" for ::1 at 2015-05-28 21:46:37 -0700
+
+
+Started GET "/assets/api/base.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-05-28 21:46:37 -0700
+
+
+Started GET "/assets/api/v1/search.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-05-28 21:46:37 -0700
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for ::1 at 2015-05-28 21:46:37 -0700
+
+
+Started GET "/assets/test.self-91d1a6c5d9dedc076092464101510fae28b3f293d9fae49669cee664905cde13.js?body=1" for ::1 at 2015-05-28 21:46:38 -0700
+
+
+Started GET "/assets/application.self-ddbf177977ba26cd2c1b1eb26af2efce4da86e57a77ebfd1047e49bb85d11f33.js?body=1" for ::1 at 2015-05-28 21:46:38 -0700
+
+
+Started GET "/" for ::1 at 2015-05-28 21:49:27 -0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 161ms (Views: 160.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/api/base.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-05-28 21:49:27 -0700
+
+
+Started GET "/assets/api/v1/search.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-05-28 21:49:27 -0700
+
+
+Started GET "/assets/api/v1/instagram.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-05-28 21:49:27 -0700
+
+
+Started GET "/assets/api/v1/twitter.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-05-28 21:49:27 -0700
+
+
+Started GET "/assets/application.self-f259c97789d07c6137b1a0679a74a979d6409a0c0c99479e70a4d43b3ed290c1.css?body=1" for ::1 at 2015-05-28 21:49:27 -0700
+
+
+Started GET "/assets/frontendtest.self-ac4e657fb0247a1b7e0340ed48864828bb4febb4b63d798bbe1dd0f679c6b296.css?body=1" for ::1 at 2015-05-28 21:49:27 -0700
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-05-28 21:49:27 -0700
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-05-28 21:49:27 -0700
+
+
+Started GET "/assets/APIClient.self-b28747fcbf1e07722428dfac64e8942b26a6d217221c9a69ada063ccdef8ae82.js?body=1" for ::1 at 2015-05-28 21:49:27 -0700
+
+
+Started GET "/assets/SearchBar.self-8798e91c845d81cfef081bd9f3c2eee23da1f6efd8d2c6403c56e8e0db86a3f4.js?body=1" for ::1 at 2015-05-28 21:49:27 -0700
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-05-28 21:49:27 -0700
+
+
+Started GET "/assets/api/v1/search.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-05-28 21:49:27 -0700
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for ::1 at 2015-05-28 21:49:27 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-05-28 21:49:27 -0700
+
+
+Started GET "/assets/Parser.self-d24fee10c28ea634d391b0f4c0f880fa248b87879b13424b2ccdf9fe331414d3.js?body=1" for ::1 at 2015-05-28 21:49:27 -0700
+
+
+Started GET "/assets/SocialMediaManager.self-7d2f46fd825bc8b6efa9c198438a6e3306186f9e8641c20d52741c54fb430253.js?body=1" for ::1 at 2015-05-28 21:49:27 -0700
+
+
+Started GET "/assets/api/base.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-05-28 21:49:27 -0700
+
+
+Started GET "/assets/api/v1/twitter.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-05-28 21:49:27 -0700
+
+
+Started GET "/assets/test.self-91d1a6c5d9dedc076092464101510fae28b3f293d9fae49669cee664905cde13.js?body=1" for ::1 at 2015-05-28 21:49:27 -0700
+
+
+Started GET "/assets/application.self-ddbf177977ba26cd2c1b1eb26af2efce4da86e57a77ebfd1047e49bb85d11f33.js?body=1" for ::1 at 2015-05-28 21:49:27 -0700
+
+
+Started GET "/assets/api/v1/instagram.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-05-28 21:49:27 -0700
+
+
+Started GET "/" for ::1 at 2015-05-28 21:50:31 -0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 175ms (Views: 174.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/api/base.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-05-28 21:50:31 -0700
+
+
+Started GET "/assets/api/v1/search.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-05-28 21:50:31 -0700
+
+
+Started GET "/assets/api/v1/instagram.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-05-28 21:50:31 -0700
+
+
+Started GET "/assets/application.self-f259c97789d07c6137b1a0679a74a979d6409a0c0c99479e70a4d43b3ed290c1.css?body=1" for ::1 at 2015-05-28 21:50:31 -0700
+
+
+Started GET "/assets/frontendtest.self-ac4e657fb0247a1b7e0340ed48864828bb4febb4b63d798bbe1dd0f679c6b296.css?body=1" for ::1 at 2015-05-28 21:50:31 -0700
+
+
+Started GET "/assets/api/v1/twitter.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-05-28 21:50:31 -0700
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-05-28 21:50:31 -0700
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-05-28 21:50:31 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-05-28 21:50:31 -0700
+
+
+Started GET "/assets/Parser.self-d24fee10c28ea634d391b0f4c0f880fa248b87879b13424b2ccdf9fe331414d3.js?body=1" for ::1 at 2015-05-28 21:50:31 -0700
+
+
+Started GET "/assets/SocialMediaManager.self-7d2f46fd825bc8b6efa9c198438a6e3306186f9e8641c20d52741c54fb430253.js?body=1" for ::1 at 2015-05-28 21:50:31 -0700
+
+
+Started GET "/assets/api/v1/instagram.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-05-28 21:50:31 -0700
+
+
+Started GET "/assets/api/v1/twitter.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-05-28 21:50:31 -0700
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-05-28 21:50:31 -0700
+
+
+Started GET "/assets/APIClient.self-b28747fcbf1e07722428dfac64e8942b26a6d217221c9a69ada063ccdef8ae82.js?body=1" for ::1 at 2015-05-28 21:50:31 -0700
+
+
+Started GET "/assets/SearchBar.self-a0deae56f1f404385f152120ca85c5316fda1ac4de831aede6ce4e31aec888cb.js?body=1" for ::1 at 2015-05-28 21:50:31 -0700
+
+
+Started GET "/assets/api/base.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-05-28 21:50:31 -0700
+
+
+Started GET "/assets/api/v1/search.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-05-28 21:50:31 -0700
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for ::1 at 2015-05-28 21:50:31 -0700
+
+
+Started GET "/assets/test.self-91d1a6c5d9dedc076092464101510fae28b3f293d9fae49669cee664905cde13.js?body=1" for ::1 at 2015-05-28 21:50:31 -0700
+
+
+Started GET "/assets/application.self-ddbf177977ba26cd2c1b1eb26af2efce4da86e57a77ebfd1047e49bb85d11f33.js?body=1" for ::1 at 2015-05-28 21:50:31 -0700
+
+
+Started GET "/" for ::1 at 2015-05-28 21:50:42 -0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 159ms (Views: 158.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/api/base.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-05-28 21:50:42 -0700
+
+
+Started GET "/assets/api/v1/instagram.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-05-28 21:50:42 -0700
+
+
+Started GET "/assets/application.self-f259c97789d07c6137b1a0679a74a979d6409a0c0c99479e70a4d43b3ed290c1.css?body=1" for ::1 at 2015-05-28 21:50:42 -0700
+
+
+Started GET "/assets/api/v1/search.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-05-28 21:50:42 -0700
+
+
+Started GET "/assets/frontendtest.self-ac4e657fb0247a1b7e0340ed48864828bb4febb4b63d798bbe1dd0f679c6b296.css?body=1" for ::1 at 2015-05-28 21:50:42 -0700
+
+
+Started GET "/assets/api/v1/twitter.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-05-28 21:50:42 -0700
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-05-28 21:50:42 -0700
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-05-28 21:50:42 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-05-28 21:50:42 -0700
+
+
+Started GET "/assets/Parser.self-d24fee10c28ea634d391b0f4c0f880fa248b87879b13424b2ccdf9fe331414d3.js?body=1" for ::1 at 2015-05-28 21:50:42 -0700
+
+
+Started GET "/assets/SocialMediaManager.self-7d2f46fd825bc8b6efa9c198438a6e3306186f9e8641c20d52741c54fb430253.js?body=1" for ::1 at 2015-05-28 21:50:42 -0700
+
+
+Started GET "/assets/api/v1/instagram.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-05-28 21:50:42 -0700
+
+
+Started GET "/assets/api/v1/twitter.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-05-28 21:50:42 -0700
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-05-28 21:50:42 -0700
+
+
+Started GET "/assets/APIClient.self-b28747fcbf1e07722428dfac64e8942b26a6d217221c9a69ada063ccdef8ae82.js?body=1" for ::1 at 2015-05-28 21:50:42 -0700
+
+
+Started GET "/assets/SearchBar.self-1e619985da496855c01048f17245851f7acfb1d77a5529e705ebb96c091afb0f.js?body=1" for ::1 at 2015-05-28 21:50:42 -0700
+
+
+Started GET "/assets/api/base.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-05-28 21:50:42 -0700
+
+
+Started GET "/assets/api/v1/search.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-05-28 21:50:42 -0700
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for ::1 at 2015-05-28 21:50:42 -0700
+
+
+Started GET "/assets/test.self-91d1a6c5d9dedc076092464101510fae28b3f293d9fae49669cee664905cde13.js?body=1" for ::1 at 2015-05-28 21:50:42 -0700
+
+
+Started GET "/assets/application.self-ddbf177977ba26cd2c1b1eb26af2efce4da86e57a77ebfd1047e49bb85d11f33.js?body=1" for ::1 at 2015-05-28 21:50:42 -0700
+
+
+Started GET "/" for ::1 at 2015-05-28 21:51:08 -0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 162ms (Views: 161.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/api/base.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-05-28 21:51:08 -0700
+
+
+Started GET "/assets/api/v1/instagram.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-05-28 21:51:08 -0700
+
+
+Started GET "/assets/api/v1/twitter.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-05-28 21:51:08 -0700
+
+
+Started GET "/assets/application.self-f259c97789d07c6137b1a0679a74a979d6409a0c0c99479e70a4d43b3ed290c1.css?body=1" for ::1 at 2015-05-28 21:51:08 -0700
+
+
+Started GET "/assets/api/v1/search.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-05-28 21:51:08 -0700
+
+
+Started GET "/assets/frontendtest.self-ac4e657fb0247a1b7e0340ed48864828bb4febb4b63d798bbe1dd0f679c6b296.css?body=1" for ::1 at 2015-05-28 21:51:08 -0700
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-05-28 21:51:08 -0700
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-05-28 21:51:08 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-05-28 21:51:08 -0700
+
+
+Started GET "/assets/Parser.self-d24fee10c28ea634d391b0f4c0f880fa248b87879b13424b2ccdf9fe331414d3.js?body=1" for ::1 at 2015-05-28 21:51:08 -0700
+
+
+Started GET "/assets/SocialMediaManager.self-f2b54b2895602be946110c511e4d8908bd88dceee7983352fee7b3e22441bc35.js?body=1" for ::1 at 2015-05-28 21:51:08 -0700
+
+
+Started GET "/assets/api/v1/instagram.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-05-28 21:51:08 -0700
+
+
+Started GET "/assets/api/v1/twitter.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-05-28 21:51:08 -0700
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-05-28 21:51:08 -0700
+
+
+Started GET "/assets/APIClient.self-b28747fcbf1e07722428dfac64e8942b26a6d217221c9a69ada063ccdef8ae82.js?body=1" for ::1 at 2015-05-28 21:51:08 -0700
+
+
+Started GET "/assets/SearchBar.self-1e619985da496855c01048f17245851f7acfb1d77a5529e705ebb96c091afb0f.js?body=1" for ::1 at 2015-05-28 21:51:08 -0700
+
+
+Started GET "/assets/api/base.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-05-28 21:51:08 -0700
+
+
+Started GET "/assets/api/v1/search.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-05-28 21:51:08 -0700
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for ::1 at 2015-05-28 21:51:08 -0700
+
+
+Started GET "/assets/test.self-91d1a6c5d9dedc076092464101510fae28b3f293d9fae49669cee664905cde13.js?body=1" for ::1 at 2015-05-28 21:51:08 -0700
+
+
+Started GET "/assets/application.self-ddbf177977ba26cd2c1b1eb26af2efce4da86e57a77ebfd1047e49bb85d11f33.js?body=1" for ::1 at 2015-05-28 21:51:08 -0700
+
+
+Started GET "/" for ::1 at 2015-05-28 21:51:23 -0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 170ms (Views: 169.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/api/base.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-05-28 21:51:24 -0700
+
+
+Started GET "/assets/api/v1/instagram.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-05-28 21:51:24 -0700
+
+
+Started GET "/assets/api/v1/twitter.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-05-28 21:51:24 -0700
+
+
+Started GET "/assets/api/v1/search.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-05-28 21:51:24 -0700
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-05-28 21:51:24 -0700
+
+
+Started GET "/assets/frontendtest.self-ac4e657fb0247a1b7e0340ed48864828bb4febb4b63d798bbe1dd0f679c6b296.css?body=1" for ::1 at 2015-05-28 21:51:24 -0700
+
+
+Started GET "/assets/application.self-f259c97789d07c6137b1a0679a74a979d6409a0c0c99479e70a4d43b3ed290c1.css?body=1" for ::1 at 2015-05-28 21:51:24 -0700
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-05-28 21:51:24 -0700
+
+
+Started GET "/assets/APIClient.self-b28747fcbf1e07722428dfac64e8942b26a6d217221c9a69ada063ccdef8ae82.js?body=1" for ::1 at 2015-05-28 21:51:24 -0700
+
+
+Started GET "/assets/SearchBar.self-ac16ab17a604845708083b4ebee72fee6cdc2756d739d98eca611fe3e6221186.js?body=1" for ::1 at 2015-05-28 21:51:24 -0700
+
+
+Started GET "/assets/api/base.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-05-28 21:51:24 -0700
+
+
+Started GET "/assets/api/v1/search.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-05-28 21:51:24 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-05-28 21:51:24 -0700
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-05-28 21:51:24 -0700
+
+
+Started GET "/assets/Parser.self-d24fee10c28ea634d391b0f4c0f880fa248b87879b13424b2ccdf9fe331414d3.js?body=1" for ::1 at 2015-05-28 21:51:24 -0700
+
+
+Started GET "/assets/api/v1/instagram.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-05-28 21:51:24 -0700
+
+
+Started GET "/assets/SocialMediaManager.self-f2b54b2895602be946110c511e4d8908bd88dceee7983352fee7b3e22441bc35.js?body=1" for ::1 at 2015-05-28 21:51:24 -0700
+
+
+Started GET "/assets/api/v1/twitter.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-05-28 21:51:24 -0700
+
+
+Started GET "/assets/application.self-ddbf177977ba26cd2c1b1eb26af2efce4da86e57a77ebfd1047e49bb85d11f33.js?body=1" for ::1 at 2015-05-28 21:51:24 -0700
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for ::1 at 2015-05-28 21:51:24 -0700
+
+
+Started GET "/assets/test.self-91d1a6c5d9dedc076092464101510fae28b3f293d9fae49669cee664905cde13.js?body=1" for ::1 at 2015-05-28 21:51:24 -0700
+
+
+Started GET "/" for ::1 at 2015-05-28 21:52:20 -0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 182ms (Views: 181.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/api/base.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-05-28 21:52:20 -0700
+
+
+Started GET "/assets/api/v1/search.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-05-28 21:52:20 -0700
+
+
+Started GET "/assets/api/v1/twitter.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-05-28 21:52:20 -0700
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-05-28 21:52:20 -0700
+
+
+Started GET "/assets/api/v1/instagram.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-05-28 21:52:20 -0700
+
+
+Started GET "/assets/frontendtest.self-ac4e657fb0247a1b7e0340ed48864828bb4febb4b63d798bbe1dd0f679c6b296.css?body=1" for ::1 at 2015-05-28 21:52:20 -0700
+
+
+Started GET "/assets/application.self-f259c97789d07c6137b1a0679a74a979d6409a0c0c99479e70a4d43b3ed290c1.css?body=1" for ::1 at 2015-05-28 21:52:20 -0700
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-05-28 21:52:20 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-05-28 21:52:20 -0700
+
+
+Started GET "/assets/Parser.self-d24fee10c28ea634d391b0f4c0f880fa248b87879b13424b2ccdf9fe331414d3.js?body=1" for ::1 at 2015-05-28 21:52:20 -0700
+
+
+Started GET "/assets/SocialMediaManager.self-f2b54b2895602be946110c511e4d8908bd88dceee7983352fee7b3e22441bc35.js?body=1" for ::1 at 2015-05-28 21:52:20 -0700
+
+
+Started GET "/assets/api/v1/instagram.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-05-28 21:52:20 -0700
+
+
+Started GET "/assets/api/v1/twitter.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-05-28 21:52:20 -0700
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-05-28 21:52:20 -0700
+
+
+Started GET "/assets/APIClient.self-b28747fcbf1e07722428dfac64e8942b26a6d217221c9a69ada063ccdef8ae82.js?body=1" for ::1 at 2015-05-28 21:52:20 -0700
+
+
+Started GET "/assets/SearchBar.self-bac1b15075ce89824c5daba21b62d63e65496b60cf6431c7fe61b2599dd79c1c.js?body=1" for ::1 at 2015-05-28 21:52:20 -0700
+
+
+Started GET "/assets/api/base.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-05-28 21:52:20 -0700
+
+
+Started GET "/assets/api/v1/search.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-05-28 21:52:20 -0700
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for ::1 at 2015-05-28 21:52:20 -0700
+
+
+Started GET "/assets/test.self-91d1a6c5d9dedc076092464101510fae28b3f293d9fae49669cee664905cde13.js?body=1" for ::1 at 2015-05-28 21:52:21 -0700
+
+
+Started GET "/assets/application.self-ddbf177977ba26cd2c1b1eb26af2efce4da86e57a77ebfd1047e49bb85d11f33.js?body=1" for ::1 at 2015-05-28 21:52:21 -0700
+
+
+Started GET "/" for ::1 at 2015-05-28 21:52:46 -0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 177ms (Views: 176.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/api/base.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-05-28 21:52:46 -0700
+
+
+Started GET "/assets/api/v1/instagram.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-05-28 21:52:46 -0700
+
+
+Started GET "/assets/api/v1/search.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-05-28 21:52:46 -0700
+
+
+Started GET "/assets/application.self-f259c97789d07c6137b1a0679a74a979d6409a0c0c99479e70a4d43b3ed290c1.css?body=1" for ::1 at 2015-05-28 21:52:46 -0700
+
+
+Started GET "/assets/frontendtest.self-ac4e657fb0247a1b7e0340ed48864828bb4febb4b63d798bbe1dd0f679c6b296.css?body=1" for ::1 at 2015-05-28 21:52:46 -0700
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-05-28 21:52:46 -0700
+
+
+Started GET "/assets/api/v1/twitter.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-05-28 21:52:46 -0700
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-05-28 21:52:46 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-05-28 21:52:46 -0700
+
+
+Started GET "/assets/Parser.self-d24fee10c28ea634d391b0f4c0f880fa248b87879b13424b2ccdf9fe331414d3.js?body=1" for ::1 at 2015-05-28 21:52:46 -0700
+
+
+Started GET "/assets/SocialMediaManager.self-7d2f46fd825bc8b6efa9c198438a6e3306186f9e8641c20d52741c54fb430253.js?body=1" for ::1 at 2015-05-28 21:52:46 -0700
+
+
+Started GET "/assets/api/v1/instagram.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-05-28 21:52:46 -0700
+
+
+Started GET "/assets/api/v1/twitter.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-05-28 21:52:46 -0700
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-05-28 21:52:46 -0700
+
+
+Started GET "/assets/APIClient.self-b28747fcbf1e07722428dfac64e8942b26a6d217221c9a69ada063ccdef8ae82.js?body=1" for ::1 at 2015-05-28 21:52:46 -0700
+
+
+Started GET "/assets/SearchBar.self-a1bfbc564230dbfba0fb83a66936a415cbb9f9b9f80b2fdc25b3e9582cd1feef.js?body=1" for ::1 at 2015-05-28 21:52:46 -0700
+
+
+Started GET "/assets/api/base.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-05-28 21:52:46 -0700
+
+
+Started GET "/assets/api/v1/search.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-05-28 21:52:46 -0700
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for ::1 at 2015-05-28 21:52:46 -0700
+
+
+Started GET "/assets/test.self-91d1a6c5d9dedc076092464101510fae28b3f293d9fae49669cee664905cde13.js?body=1" for ::1 at 2015-05-28 21:52:46 -0700
+
+
+Started GET "/assets/application.self-ddbf177977ba26cd2c1b1eb26af2efce4da86e57a77ebfd1047e49bb85d11f33.js?body=1" for ::1 at 2015-05-28 21:52:46 -0700
+
+
+Started GET "/" for ::1 at 2015-05-28 21:53:33 -0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 176ms (Views: 175.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/api/base.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-05-28 21:53:33 -0700
+
+
+Started GET "/assets/api/v1/instagram.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-05-28 21:53:33 -0700
+
+
+Started GET "/assets/api/v1/search.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-05-28 21:53:33 -0700
+
+
+Started GET "/assets/frontendtest.self-ac4e657fb0247a1b7e0340ed48864828bb4febb4b63d798bbe1dd0f679c6b296.css?body=1" for ::1 at 2015-05-28 21:53:33 -0700
+
+
+Started GET "/assets/api/v1/twitter.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-05-28 21:53:33 -0700
+
+
+Started GET "/assets/application.self-f259c97789d07c6137b1a0679a74a979d6409a0c0c99479e70a4d43b3ed290c1.css?body=1" for ::1 at 2015-05-28 21:53:33 -0700
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-05-28 21:53:33 -0700
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-05-28 21:53:33 -0700
+
+
+Started GET "/assets/APIClient.self-b28747fcbf1e07722428dfac64e8942b26a6d217221c9a69ada063ccdef8ae82.js?body=1" for ::1 at 2015-05-28 21:53:33 -0700
+
+
+Started GET "/assets/SearchBar.self-d991aa169e37cd3fd111c51cf20448e13550b8aeeae233d92c14059b3ca15168.js?body=1" for ::1 at 2015-05-28 21:53:33 -0700
+
+
+Started GET "/assets/api/base.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-05-28 21:53:33 -0700
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-05-28 21:53:33 -0700
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for ::1 at 2015-05-28 21:53:33 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-05-28 21:53:33 -0700
+
+
+Started GET "/assets/Parser.self-d24fee10c28ea634d391b0f4c0f880fa248b87879b13424b2ccdf9fe331414d3.js?body=1" for ::1 at 2015-05-28 21:53:33 -0700
+
+
+Started GET "/assets/SocialMediaManager.self-7d2f46fd825bc8b6efa9c198438a6e3306186f9e8641c20d52741c54fb430253.js?body=1" for ::1 at 2015-05-28 21:53:33 -0700
+
+
+Started GET "/assets/api/v1/instagram.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-05-28 21:53:33 -0700
+
+
+Started GET "/assets/api/v1/search.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-05-28 21:53:33 -0700
+
+
+Started GET "/assets/test.self-91d1a6c5d9dedc076092464101510fae28b3f293d9fae49669cee664905cde13.js?body=1" for ::1 at 2015-05-28 21:53:33 -0700
+
+
+Started GET "/assets/application.self-ddbf177977ba26cd2c1b1eb26af2efce4da86e57a77ebfd1047e49bb85d11f33.js?body=1" for ::1 at 2015-05-28 21:53:33 -0700
+
+
+Started GET "/assets/api/v1/twitter.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-05-28 21:53:33 -0700
+
+
+Started GET "/" for ::1 at 2015-05-28 21:53:55 -0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 162ms (Views: 162.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/api/base.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-05-28 21:53:55 -0700
+
+
+Started GET "/assets/api/v1/instagram.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-05-28 21:53:55 -0700
+
+
+Started GET "/assets/api/v1/twitter.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-05-28 21:53:55 -0700
+
+
+Started GET "/assets/frontendtest.self-ac4e657fb0247a1b7e0340ed48864828bb4febb4b63d798bbe1dd0f679c6b296.css?body=1" for ::1 at 2015-05-28 21:53:55 -0700
+
+
+Started GET "/assets/application.self-f259c97789d07c6137b1a0679a74a979d6409a0c0c99479e70a4d43b3ed290c1.css?body=1" for ::1 at 2015-05-28 21:53:55 -0700
+
+
+Started GET "/assets/api/v1/search.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-05-28 21:53:55 -0700
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-05-28 21:53:55 -0700
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-05-28 21:53:55 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-05-28 21:53:55 -0700
+
+
+Started GET "/assets/Parser.self-d24fee10c28ea634d391b0f4c0f880fa248b87879b13424b2ccdf9fe331414d3.js?body=1" for ::1 at 2015-05-28 21:53:55 -0700
+
+
+Started GET "/assets/SocialMediaManager.self-7d2f46fd825bc8b6efa9c198438a6e3306186f9e8641c20d52741c54fb430253.js?body=1" for ::1 at 2015-05-28 21:53:55 -0700
+
+
+Started GET "/assets/api/v1/instagram.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-05-28 21:53:55 -0700
+
+
+Started GET "/assets/api/v1/twitter.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-05-28 21:53:55 -0700
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-05-28 21:53:55 -0700
+
+
+Started GET "/assets/APIClient.self-b28747fcbf1e07722428dfac64e8942b26a6d217221c9a69ada063ccdef8ae82.js?body=1" for ::1 at 2015-05-28 21:53:55 -0700
+
+
+Started GET "/assets/SearchBar.self-bc6af7598a55e4f085ea186a0d00e9bc69e481f7f8ba638c17f8c88917ad6635.js?body=1" for ::1 at 2015-05-28 21:53:55 -0700
+
+
+Started GET "/assets/api/base.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-05-28 21:53:55 -0700
+
+
+Started GET "/assets/api/v1/search.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-05-28 21:53:55 -0700
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for ::1 at 2015-05-28 21:53:55 -0700
+
+
+Started GET "/assets/test.self-91d1a6c5d9dedc076092464101510fae28b3f293d9fae49669cee664905cde13.js?body=1" for ::1 at 2015-05-28 21:53:55 -0700
+
+
+Started GET "/assets/application.self-ddbf177977ba26cd2c1b1eb26af2efce4da86e57a77ebfd1047e49bb85d11f33.js?body=1" for ::1 at 2015-05-28 21:53:55 -0700
+
+
+Started GET "/" for ::1 at 2015-05-28 21:54:19 -0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 168ms (Views: 167.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/api/base.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-05-28 21:54:20 -0700
+
+
+Started GET "/assets/api/v1/instagram.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-05-28 21:54:20 -0700
+
+
+Started GET "/assets/api/v1/search.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-05-28 21:54:20 -0700
+
+
+Started GET "/assets/api/v1/twitter.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-05-28 21:54:20 -0700
+
+
+Started GET "/assets/frontendtest.self-ac4e657fb0247a1b7e0340ed48864828bb4febb4b63d798bbe1dd0f679c6b296.css?body=1" for ::1 at 2015-05-28 21:54:20 -0700
+
+
+Started GET "/assets/application.self-f259c97789d07c6137b1a0679a74a979d6409a0c0c99479e70a4d43b3ed290c1.css?body=1" for ::1 at 2015-05-28 21:54:20 -0700
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-05-28 21:54:20 -0700
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-05-28 21:54:20 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-05-28 21:54:20 -0700
+
+
+Started GET "/assets/Parser.self-d24fee10c28ea634d391b0f4c0f880fa248b87879b13424b2ccdf9fe331414d3.js?body=1" for ::1 at 2015-05-28 21:54:20 -0700
+
+
+Started GET "/assets/SocialMediaManager.self-7d2f46fd825bc8b6efa9c198438a6e3306186f9e8641c20d52741c54fb430253.js?body=1" for ::1 at 2015-05-28 21:54:20 -0700
+
+
+Started GET "/assets/api/v1/instagram.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-05-28 21:54:20 -0700
+
+
+Started GET "/assets/api/v1/twitter.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-05-28 21:54:20 -0700
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-05-28 21:54:20 -0700
+
+
+Started GET "/assets/APIClient.self-b28747fcbf1e07722428dfac64e8942b26a6d217221c9a69ada063ccdef8ae82.js?body=1" for ::1 at 2015-05-28 21:54:20 -0700
+
+
+Started GET "/assets/SearchBar.self-85c617ea7c2ddb56bd8aa166303b1285c46b41d31dbd61c9a81eb216a05d8832.js?body=1" for ::1 at 2015-05-28 21:54:20 -0700
+
+
+Started GET "/assets/api/base.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-05-28 21:54:20 -0700
+
+
+Started GET "/assets/api/v1/search.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-05-28 21:54:20 -0700
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for ::1 at 2015-05-28 21:54:20 -0700
+
+
+Started GET "/assets/test.self-91d1a6c5d9dedc076092464101510fae28b3f293d9fae49669cee664905cde13.js?body=1" for ::1 at 2015-05-28 21:54:20 -0700
+
+
+Started GET "/assets/application.self-ddbf177977ba26cd2c1b1eb26af2efce4da86e57a77ebfd1047e49bb85d11f33.js?body=1" for ::1 at 2015-05-28 21:54:20 -0700
+
+
+Started GET "/" for ::1 at 2015-05-28 21:54:38 -0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 169ms (Views: 168.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/api/base.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-05-28 21:54:38 -0700
+
+
+Started GET "/assets/api/v1/instagram.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-05-28 21:54:38 -0700
+
+
+Started GET "/assets/api/v1/search.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-05-28 21:54:38 -0700
+
+
+Started GET "/assets/api/v1/twitter.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-05-28 21:54:38 -0700
+
+
+Started GET "/assets/frontendtest.self-ac4e657fb0247a1b7e0340ed48864828bb4febb4b63d798bbe1dd0f679c6b296.css?body=1" for ::1 at 2015-05-28 21:54:38 -0700
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-05-28 21:54:38 -0700
+
+
+Started GET "/assets/application.self-f259c97789d07c6137b1a0679a74a979d6409a0c0c99479e70a4d43b3ed290c1.css?body=1" for ::1 at 2015-05-28 21:54:38 -0700
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-05-28 21:54:38 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-05-28 21:54:38 -0700
+
+
+Started GET "/assets/Parser.self-d24fee10c28ea634d391b0f4c0f880fa248b87879b13424b2ccdf9fe331414d3.js?body=1" for ::1 at 2015-05-28 21:54:38 -0700
+
+
+Started GET "/assets/SocialMediaManager.self-7d2f46fd825bc8b6efa9c198438a6e3306186f9e8641c20d52741c54fb430253.js?body=1" for ::1 at 2015-05-28 21:54:38 -0700
+
+
+Started GET "/assets/api/v1/instagram.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-05-28 21:54:39 -0700
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-05-28 21:54:39 -0700
+
+
+Started GET "/assets/api/v1/twitter.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-05-28 21:54:39 -0700
+
+
+Started GET "/assets/APIClient.self-b28747fcbf1e07722428dfac64e8942b26a6d217221c9a69ada063ccdef8ae82.js?body=1" for ::1 at 2015-05-28 21:54:39 -0700
+
+
+Started GET "/assets/SearchBar.self-62f38a56c46e119aae3fc54f49548a1ae42f5c68f65291c828cd1cb98658782d.js?body=1" for ::1 at 2015-05-28 21:54:39 -0700
+
+
+Started GET "/assets/api/base.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-05-28 21:54:39 -0700
+
+
+Started GET "/assets/api/v1/search.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-05-28 21:54:39 -0700
+
+
+Started GET "/assets/test.self-91d1a6c5d9dedc076092464101510fae28b3f293d9fae49669cee664905cde13.js?body=1" for ::1 at 2015-05-28 21:54:39 -0700
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for ::1 at 2015-05-28 21:54:39 -0700
+
+
+Started GET "/assets/application.self-ddbf177977ba26cd2c1b1eb26af2efce4da86e57a77ebfd1047e49bb85d11f33.js?body=1" for ::1 at 2015-05-28 21:54:39 -0700
+
+
+Started GET "/" for ::1 at 2015-05-28 21:55:24 -0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 165ms (Views: 163.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/api/base.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-05-28 21:55:24 -0700
+
+
+Started GET "/assets/api/v1/instagram.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-05-28 21:55:24 -0700
+
+
+Started GET "/assets/api/v1/search.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-05-28 21:55:24 -0700
+
+
+Started GET "/assets/frontendtest.self-ac4e657fb0247a1b7e0340ed48864828bb4febb4b63d798bbe1dd0f679c6b296.css?body=1" for ::1 at 2015-05-28 21:55:24 -0700
+
+
+Started GET "/assets/api/v1/twitter.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-05-28 21:55:24 -0700
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-05-28 21:55:24 -0700
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-05-28 21:55:24 -0700
+
+
+Started GET "/assets/application.self-f259c97789d07c6137b1a0679a74a979d6409a0c0c99479e70a4d43b3ed290c1.css?body=1" for ::1 at 2015-05-28 21:55:24 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-05-28 21:55:24 -0700
+
+
+Started GET "/assets/Parser.self-d24fee10c28ea634d391b0f4c0f880fa248b87879b13424b2ccdf9fe331414d3.js?body=1" for ::1 at 2015-05-28 21:55:24 -0700
+
+
+Started GET "/assets/SocialMediaManager.self-7d2f46fd825bc8b6efa9c198438a6e3306186f9e8641c20d52741c54fb430253.js?body=1" for ::1 at 2015-05-28 21:55:24 -0700
+
+
+Started GET "/assets/api/v1/instagram.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-05-28 21:55:24 -0700
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-05-28 21:55:24 -0700
+
+
+Started GET "/assets/test.self-91d1a6c5d9dedc076092464101510fae28b3f293d9fae49669cee664905cde13.js?body=1" for ::1 at 2015-05-28 21:55:24 -0700
+
+
+Started GET "/assets/APIClient.self-b28747fcbf1e07722428dfac64e8942b26a6d217221c9a69ada063ccdef8ae82.js?body=1" for ::1 at 2015-05-28 21:55:24 -0700
+
+
+Started GET "/assets/SearchBar.self-d18f4743b9ee7ca0df9eb7f7c6a1e6ceaf920f87fb266313389618bea945a748.js?body=1" for ::1 at 2015-05-28 21:55:24 -0700
+
+
+Started GET "/assets/api/base.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-05-28 21:55:24 -0700
+
+
+Started GET "/assets/api/v1/search.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-05-28 21:55:24 -0700
+
+
+Started GET "/assets/api/v1/twitter.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-05-28 21:55:24 -0700
+
+
+Started GET "/assets/application.self-ddbf177977ba26cd2c1b1eb26af2efce4da86e57a77ebfd1047e49bb85d11f33.js?body=1" for ::1 at 2015-05-28 21:55:24 -0700
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for ::1 at 2015-05-28 21:55:24 -0700
+
+
+Started GET "/" for ::1 at 2015-05-28 21:55:52 -0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 165ms (Views: 164.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/api/base.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-05-28 21:55:53 -0700
+
+
+Started GET "/assets/api/v1/instagram.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-05-28 21:55:53 -0700
+
+
+Started GET "/assets/api/v1/search.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-05-28 21:55:53 -0700
+
+
+Started GET "/assets/api/v1/twitter.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-05-28 21:55:53 -0700
+
+
+Started GET "/assets/frontendtest.self-ac4e657fb0247a1b7e0340ed48864828bb4febb4b63d798bbe1dd0f679c6b296.css?body=1" for ::1 at 2015-05-28 21:55:53 -0700
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-05-28 21:55:53 -0700
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-05-28 21:55:53 -0700
+
+
+Started GET "/assets/application.self-f259c97789d07c6137b1a0679a74a979d6409a0c0c99479e70a4d43b3ed290c1.css?body=1" for ::1 at 2015-05-28 21:55:53 -0700
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-05-28 21:55:53 -0700
+
+
+Started GET "/assets/APIClient.self-b28747fcbf1e07722428dfac64e8942b26a6d217221c9a69ada063ccdef8ae82.js?body=1" for ::1 at 2015-05-28 21:55:53 -0700
+
+
+Started GET "/assets/SearchBar.self-84f92d2123082ad6907cb9c248eee77a4badb05d9ab4d01204725044edfe7c79.js?body=1" for ::1 at 2015-05-28 21:55:53 -0700
+
+
+Started GET "/assets/api/base.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-05-28 21:55:53 -0700
+
+
+Started GET "/assets/api/v1/search.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-05-28 21:55:53 -0700
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for ::1 at 2015-05-28 21:55:53 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-05-28 21:55:53 -0700
+
+
+Started GET "/assets/Parser.self-d24fee10c28ea634d391b0f4c0f880fa248b87879b13424b2ccdf9fe331414d3.js?body=1" for ::1 at 2015-05-28 21:55:53 -0700
+
+
+Started GET "/assets/SocialMediaManager.self-7d2f46fd825bc8b6efa9c198438a6e3306186f9e8641c20d52741c54fb430253.js?body=1" for ::1 at 2015-05-28 21:55:53 -0700
+
+
+Started GET "/assets/api/v1/instagram.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-05-28 21:55:53 -0700
+
+
+Started GET "/assets/api/v1/twitter.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-05-28 21:55:53 -0700
+
+
+Started GET "/assets/test.self-91d1a6c5d9dedc076092464101510fae28b3f293d9fae49669cee664905cde13.js?body=1" for ::1 at 2015-05-28 21:55:53 -0700
+
+
+Started GET "/assets/application.self-ddbf177977ba26cd2c1b1eb26af2efce4da86e57a77ebfd1047e49bb85d11f33.js?body=1" for ::1 at 2015-05-28 21:55:53 -0700
+
+
+Started GET "/" for ::1 at 2015-05-28 22:03:09 -0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 62ms (Views: 61.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/api/base.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-05-28 22:03:10 -0700
+
+
+Started GET "/assets/api/v1/instagram.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-05-28 22:03:10 -0700
+
+
+Started GET "/assets/api/v1/search.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-05-28 22:03:10 -0700
+
+
+Started GET "/assets/frontendtest.self-ac4e657fb0247a1b7e0340ed48864828bb4febb4b63d798bbe1dd0f679c6b296.css?body=1" for ::1 at 2015-05-28 22:03:10 -0700
+
+
+Started GET "/assets/api/v1/twitter.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-05-28 22:03:10 -0700
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-05-28 22:03:10 -0700
+
+
+Started GET "/assets/application.self-f259c97789d07c6137b1a0679a74a979d6409a0c0c99479e70a4d43b3ed290c1.css?body=1" for ::1 at 2015-05-28 22:03:10 -0700
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-05-28 22:03:10 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-05-28 22:03:10 -0700
+
+
+Started GET "/assets/Parser.self-d24fee10c28ea634d391b0f4c0f880fa248b87879b13424b2ccdf9fe331414d3.js?body=1" for ::1 at 2015-05-28 22:03:10 -0700
+
+
+Started GET "/assets/SocialMediaManager.self-7d2f46fd825bc8b6efa9c198438a6e3306186f9e8641c20d52741c54fb430253.js?body=1" for ::1 at 2015-05-28 22:03:10 -0700
+
+
+Started GET "/assets/api/v1/instagram.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-05-28 22:03:10 -0700
+
+
+Started GET "/assets/api/v1/twitter.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-05-28 22:03:10 -0700
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-05-28 22:03:10 -0700
+
+
+Started GET "/assets/APIClient.self-b28747fcbf1e07722428dfac64e8942b26a6d217221c9a69ada063ccdef8ae82.js?body=1" for ::1 at 2015-05-28 22:03:10 -0700
+
+
+Started GET "/assets/SearchBar.self-84f92d2123082ad6907cb9c248eee77a4badb05d9ab4d01204725044edfe7c79.js?body=1" for ::1 at 2015-05-28 22:03:10 -0700
+
+
+Started GET "/assets/api/base.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-05-28 22:03:10 -0700
+
+
+Started GET "/assets/api/v1/search.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-05-28 22:03:10 -0700
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for ::1 at 2015-05-28 22:03:10 -0700
+
+
+Started GET "/assets/test.self-91d1a6c5d9dedc076092464101510fae28b3f293d9fae49669cee664905cde13.js?body=1" for ::1 at 2015-05-28 22:03:10 -0700
+
+
+Started GET "/assets/application.self-ddbf177977ba26cd2c1b1eb26af2efce4da86e57a77ebfd1047e49bb85d11f33.js?body=1" for ::1 at 2015-05-28 22:03:10 -0700
+
+
+Started GET "/" for ::1 at 2015-05-28 22:05:39 -0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 169ms (Views: 168.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/api/base.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-05-28 22:05:39 -0700
+
+
+Started GET "/assets/api/v1/instagram.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-05-28 22:05:39 -0700
+
+
+Started GET "/assets/api/v1/search.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-05-28 22:05:39 -0700
+
+
+Started GET "/assets/api/v1/twitter.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-05-28 22:05:39 -0700
+
+
+Started GET "/assets/frontendtest.self-ac4e657fb0247a1b7e0340ed48864828bb4febb4b63d798bbe1dd0f679c6b296.css?body=1" for ::1 at 2015-05-28 22:05:39 -0700
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-05-28 22:05:39 -0700
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-05-28 22:05:40 -0700
+
+
+Started GET "/assets/application.self-f259c97789d07c6137b1a0679a74a979d6409a0c0c99479e70a4d43b3ed290c1.css?body=1" for ::1 at 2015-05-28 22:05:40 -0700
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-05-28 22:05:40 -0700
+
+
+Started GET "/assets/APIClient.self-b28747fcbf1e07722428dfac64e8942b26a6d217221c9a69ada063ccdef8ae82.js?body=1" for ::1 at 2015-05-28 22:05:40 -0700
+
+
+Started GET "/assets/SearchBar.self-b9049539a403f5e83c39fc6e51b01189ba670fbab0cad6b8656459fa3b9e7aa8.js?body=1" for ::1 at 2015-05-28 22:05:40 -0700
+
+
+Started GET "/assets/api/base.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-05-28 22:05:40 -0700
+
+
+Started GET "/assets/api/v1/search.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-05-28 22:05:40 -0700
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for ::1 at 2015-05-28 22:05:40 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-05-28 22:05:40 -0700
+
+
+Started GET "/assets/Parser.self-d24fee10c28ea634d391b0f4c0f880fa248b87879b13424b2ccdf9fe331414d3.js?body=1" for ::1 at 2015-05-28 22:05:40 -0700
+
+
+Started GET "/assets/SocialMediaManager.self-7d2f46fd825bc8b6efa9c198438a6e3306186f9e8641c20d52741c54fb430253.js?body=1" for ::1 at 2015-05-28 22:05:40 -0700
+
+
+Started GET "/assets/api/v1/instagram.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-05-28 22:05:40 -0700
+
+
+Started GET "/assets/api/v1/twitter.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-05-28 22:05:40 -0700
+
+
+Started GET "/assets/test.self-91d1a6c5d9dedc076092464101510fae28b3f293d9fae49669cee664905cde13.js?body=1" for ::1 at 2015-05-28 22:05:40 -0700
+
+
+Started GET "/assets/application.self-ddbf177977ba26cd2c1b1eb26af2efce4da86e57a77ebfd1047e49bb85d11f33.js?body=1" for ::1 at 2015-05-28 22:05:40 -0700
+
+
+Started GET "/" for ::1 at 2015-05-28 22:06:16 -0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 165ms (Views: 164.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/api/base.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-05-28 22:06:16 -0700
+
+
+Started GET "/assets/api/v1/instagram.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-05-28 22:06:16 -0700
+
+
+Started GET "/assets/api/v1/search.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-05-28 22:06:16 -0700
+
+
+Started GET "/assets/api/v1/twitter.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-05-28 22:06:16 -0700
+
+
+Started GET "/assets/frontendtest.self-ac4e657fb0247a1b7e0340ed48864828bb4febb4b63d798bbe1dd0f679c6b296.css?body=1" for ::1 at 2015-05-28 22:06:16 -0700
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-05-28 22:06:16 -0700
+
+
+Started GET "/assets/application.self-f259c97789d07c6137b1a0679a74a979d6409a0c0c99479e70a4d43b3ed290c1.css?body=1" for ::1 at 2015-05-28 22:06:16 -0700
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-05-28 22:06:16 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-05-28 22:06:16 -0700
+
+
+Started GET "/assets/Parser.self-d24fee10c28ea634d391b0f4c0f880fa248b87879b13424b2ccdf9fe331414d3.js?body=1" for ::1 at 2015-05-28 22:06:16 -0700
+
+
+Started GET "/assets/SocialMediaManager.self-7d2f46fd825bc8b6efa9c198438a6e3306186f9e8641c20d52741c54fb430253.js?body=1" for ::1 at 2015-05-28 22:06:16 -0700
+
+
+Started GET "/assets/api/v1/instagram.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-05-28 22:06:16 -0700
+
+
+Started GET "/assets/api/v1/twitter.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-05-28 22:06:16 -0700
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-05-28 22:06:16 -0700
+
+
+Started GET "/assets/APIClient.self-b28747fcbf1e07722428dfac64e8942b26a6d217221c9a69ada063ccdef8ae82.js?body=1" for ::1 at 2015-05-28 22:06:16 -0700
+
+
+Started GET "/assets/SearchBar.self-8389d8afeda8bd8728293197537aa09d15fc5a306b0c004487b4f5a8dbf3ec07.js?body=1" for ::1 at 2015-05-28 22:06:16 -0700
+
+
+Started GET "/assets/api/base.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-05-28 22:06:16 -0700
+
+
+Started GET "/assets/api/v1/search.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-05-28 22:06:16 -0700
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for ::1 at 2015-05-28 22:06:16 -0700
+
+
+Started GET "/assets/test.self-91d1a6c5d9dedc076092464101510fae28b3f293d9fae49669cee664905cde13.js?body=1" for ::1 at 2015-05-28 22:06:16 -0700
+
+
+Started GET "/assets/application.self-ddbf177977ba26cd2c1b1eb26af2efce4da86e57a77ebfd1047e49bb85d11f33.js?body=1" for ::1 at 2015-05-28 22:06:16 -0700
+
+
+Started GET "/" for ::1 at 2015-05-28 22:07:02 -0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 163ms (Views: 163.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/api/base.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-05-28 22:07:02 -0700
+
+
+Started GET "/assets/api/v1/instagram.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-05-28 22:07:02 -0700
+
+
+Started GET "/assets/api/v1/search.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-05-28 22:07:02 -0700
+
+
+Started GET "/assets/api/v1/twitter.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-05-28 22:07:02 -0700
+
+
+Started GET "/assets/frontendtest.self-ac4e657fb0247a1b7e0340ed48864828bb4febb4b63d798bbe1dd0f679c6b296.css?body=1" for ::1 at 2015-05-28 22:07:02 -0700
+
+
+Started GET "/assets/application.self-f259c97789d07c6137b1a0679a74a979d6409a0c0c99479e70a4d43b3ed290c1.css?body=1" for ::1 at 2015-05-28 22:07:02 -0700
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-05-28 22:07:02 -0700
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-05-28 22:07:02 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-05-28 22:07:02 -0700
+
+
+Started GET "/assets/Parser.self-d24fee10c28ea634d391b0f4c0f880fa248b87879b13424b2ccdf9fe331414d3.js?body=1" for ::1 at 2015-05-28 22:07:02 -0700
+
+
+Started GET "/assets/SocialMediaManager.self-7d2f46fd825bc8b6efa9c198438a6e3306186f9e8641c20d52741c54fb430253.js?body=1" for ::1 at 2015-05-28 22:07:02 -0700
+
+
+Started GET "/assets/api/v1/instagram.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-05-28 22:07:02 -0700
+
+
+Started GET "/assets/api/v1/twitter.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-05-28 22:07:02 -0700
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-05-28 22:07:02 -0700
+
+
+Started GET "/assets/APIClient.self-b28747fcbf1e07722428dfac64e8942b26a6d217221c9a69ada063ccdef8ae82.js?body=1" for ::1 at 2015-05-28 22:07:02 -0700
+
+
+Started GET "/assets/SearchBar.self-dcf1e0d8ad1f32923d161be4cc94b9f30c060af0f983ae31548c1d94c4665a7a.js?body=1" for ::1 at 2015-05-28 22:07:02 -0700
+
+
+Started GET "/assets/api/base.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-05-28 22:07:02 -0700
+
+
+Started GET "/assets/api/v1/search.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-05-28 22:07:02 -0700
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for ::1 at 2015-05-28 22:07:02 -0700
+
+
+Started GET "/assets/test.self-91d1a6c5d9dedc076092464101510fae28b3f293d9fae49669cee664905cde13.js?body=1" for ::1 at 2015-05-28 22:07:02 -0700
+
+
+Started GET "/assets/application.self-ddbf177977ba26cd2c1b1eb26af2efce4da86e57a77ebfd1047e49bb85d11f33.js?body=1" for ::1 at 2015-05-28 22:07:02 -0700
+
+
+Started GET "/" for ::1 at 2015-05-28 22:07:44 -0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 165ms (Views: 163.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/api/base.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-05-28 22:07:44 -0700
+
+
+Started GET "/assets/api/v1/search.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-05-28 22:07:44 -0700
+
+
+Started GET "/assets/api/v1/instagram.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-05-28 22:07:44 -0700
+
+
+Started GET "/assets/api/v1/twitter.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-05-28 22:07:44 -0700
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-05-28 22:07:44 -0700
+
+
+Started GET "/assets/frontendtest.self-ac4e657fb0247a1b7e0340ed48864828bb4febb4b63d798bbe1dd0f679c6b296.css?body=1" for ::1 at 2015-05-28 22:07:44 -0700
+
+
+Started GET "/assets/application.self-f259c97789d07c6137b1a0679a74a979d6409a0c0c99479e70a4d43b3ed290c1.css?body=1" for ::1 at 2015-05-28 22:07:44 -0700
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-05-28 22:07:44 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-05-28 22:07:44 -0700
+
+
+Started GET "/assets/Parser.self-d24fee10c28ea634d391b0f4c0f880fa248b87879b13424b2ccdf9fe331414d3.js?body=1" for ::1 at 2015-05-28 22:07:44 -0700
+
+
+Started GET "/assets/SocialMediaManager.self-7d2f46fd825bc8b6efa9c198438a6e3306186f9e8641c20d52741c54fb430253.js?body=1" for ::1 at 2015-05-28 22:07:44 -0700
+
+
+Started GET "/assets/api/v1/instagram.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-05-28 22:07:44 -0700
+
+
+Started GET "/assets/api/v1/twitter.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-05-28 22:07:44 -0700
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-05-28 22:07:44 -0700
+
+
+Started GET "/assets/APIClient.self-b28747fcbf1e07722428dfac64e8942b26a6d217221c9a69ada063ccdef8ae82.js?body=1" for ::1 at 2015-05-28 22:07:44 -0700
+
+
+Started GET "/assets/SearchBar.self-c503e7147fa69e0daf0eb39dadcbdb4d12fe7c02f43bde18eaeace91584d3d16.js?body=1" for ::1 at 2015-05-28 22:07:44 -0700
+
+
+Started GET "/assets/api/base.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-05-28 22:07:44 -0700
+
+
+Started GET "/assets/api/v1/search.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-05-28 22:07:44 -0700
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for ::1 at 2015-05-28 22:07:44 -0700
+
+
+Started GET "/assets/test.self-91d1a6c5d9dedc076092464101510fae28b3f293d9fae49669cee664905cde13.js?body=1" for ::1 at 2015-05-28 22:07:44 -0700
+
+
+Started GET "/assets/application.self-ddbf177977ba26cd2c1b1eb26af2efce4da86e57a77ebfd1047e49bb85d11f33.js?body=1" for ::1 at 2015-05-28 22:07:44 -0700
+
+
+Started GET "/" for ::1 at 2015-05-28 22:08:05 -0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 181ms (Views: 180.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/api/base.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-05-28 22:08:06 -0700
+
+
+Started GET "/assets/api/v1/instagram.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-05-28 22:08:06 -0700
+
+
+Started GET "/assets/api/v1/search.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-05-28 22:08:06 -0700
+
+
+Started GET "/assets/frontendtest.self-ac4e657fb0247a1b7e0340ed48864828bb4febb4b63d798bbe1dd0f679c6b296.css?body=1" for ::1 at 2015-05-28 22:08:06 -0700
+
+
+Started GET "/assets/api/v1/twitter.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-05-28 22:08:06 -0700
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-05-28 22:08:06 -0700
+
+
+Started GET "/assets/application.self-f259c97789d07c6137b1a0679a74a979d6409a0c0c99479e70a4d43b3ed290c1.css?body=1" for ::1 at 2015-05-28 22:08:06 -0700
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-05-28 22:08:06 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-05-28 22:08:06 -0700
+
+
+Started GET "/assets/Parser.self-d24fee10c28ea634d391b0f4c0f880fa248b87879b13424b2ccdf9fe331414d3.js?body=1" for ::1 at 2015-05-28 22:08:06 -0700
+
+
+Started GET "/assets/SocialMediaManager.self-7d2f46fd825bc8b6efa9c198438a6e3306186f9e8641c20d52741c54fb430253.js?body=1" for ::1 at 2015-05-28 22:08:06 -0700
+
+
+Started GET "/assets/api/v1/instagram.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-05-28 22:08:06 -0700
+
+
+Started GET "/assets/api/v1/twitter.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-05-28 22:08:06 -0700
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-05-28 22:08:06 -0700
+
+
+Started GET "/assets/APIClient.self-b28747fcbf1e07722428dfac64e8942b26a6d217221c9a69ada063ccdef8ae82.js?body=1" for ::1 at 2015-05-28 22:08:06 -0700
+
+
+Started GET "/assets/SearchBar.self-018fe9ea3582b981614df6f815636da1ef1a7c59fd355ceb2351bc612f024a8c.js?body=1" for ::1 at 2015-05-28 22:08:06 -0700
+
+
+Started GET "/assets/api/base.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-05-28 22:08:06 -0700
+
+
+Started GET "/assets/api/v1/search.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-05-28 22:08:06 -0700
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for ::1 at 2015-05-28 22:08:06 -0700
+
+
+Started GET "/assets/test.self-91d1a6c5d9dedc076092464101510fae28b3f293d9fae49669cee664905cde13.js?body=1" for ::1 at 2015-05-28 22:08:06 -0700
+
+
+Started GET "/assets/application.self-ddbf177977ba26cd2c1b1eb26af2efce4da86e57a77ebfd1047e49bb85d11f33.js?body=1" for ::1 at 2015-05-28 22:08:06 -0700
+
+
+Started GET "/" for ::1 at 2015-05-28 22:08:44 -0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 174ms (Views: 172.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/api/base.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-05-28 22:08:44 -0700
+
+
+Started GET "/assets/api/v1/instagram.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-05-28 22:08:44 -0700
+
+
+Started GET "/assets/api/v1/search.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-05-28 22:08:44 -0700
+
+
+Started GET "/assets/frontendtest.self-ac4e657fb0247a1b7e0340ed48864828bb4febb4b63d798bbe1dd0f679c6b296.css?body=1" for ::1 at 2015-05-28 22:08:44 -0700
+
+
+Started GET "/assets/api/v1/twitter.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-05-28 22:08:44 -0700
+
+
+Started GET "/assets/application.self-f259c97789d07c6137b1a0679a74a979d6409a0c0c99479e70a4d43b3ed290c1.css?body=1" for ::1 at 2015-05-28 22:08:44 -0700
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-05-28 22:08:44 -0700
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-05-28 22:08:44 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-05-28 22:08:44 -0700
+
+
+Started GET "/assets/Parser.self-d24fee10c28ea634d391b0f4c0f880fa248b87879b13424b2ccdf9fe331414d3.js?body=1" for ::1 at 2015-05-28 22:08:44 -0700
+
+
+Started GET "/assets/SocialMediaManager.self-7d2f46fd825bc8b6efa9c198438a6e3306186f9e8641c20d52741c54fb430253.js?body=1" for ::1 at 2015-05-28 22:08:44 -0700
+
+
+Started GET "/assets/api/v1/instagram.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-05-28 22:08:44 -0700
+
+
+Started GET "/assets/api/v1/twitter.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-05-28 22:08:44 -0700
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-05-28 22:08:44 -0700
+
+
+Started GET "/assets/APIClient.self-b28747fcbf1e07722428dfac64e8942b26a6d217221c9a69ada063ccdef8ae82.js?body=1" for ::1 at 2015-05-28 22:08:44 -0700
+
+
+Started GET "/assets/SearchBar.self-3d0887c97a42abe96d77633357cb046499ed480fcf891807b616cb9861552a30.js?body=1" for ::1 at 2015-05-28 22:08:44 -0700
+
+
+Started GET "/assets/api/base.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-05-28 22:08:44 -0700
+
+
+Started GET "/assets/api/v1/search.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-05-28 22:08:44 -0700
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for ::1 at 2015-05-28 22:08:44 -0700
+
+
+Started GET "/assets/test.self-91d1a6c5d9dedc076092464101510fae28b3f293d9fae49669cee664905cde13.js?body=1" for ::1 at 2015-05-28 22:08:44 -0700
+
+
+Started GET "/assets/application.self-ddbf177977ba26cd2c1b1eb26af2efce4da86e57a77ebfd1047e49bb85d11f33.js?body=1" for ::1 at 2015-05-28 22:08:44 -0700
+
+
+Started GET "/" for ::1 at 2015-05-28 22:08:55 -0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 178ms (Views: 176.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/api/base.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-05-28 22:08:55 -0700
+
+
+Started GET "/assets/api/v1/instagram.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-05-28 22:08:55 -0700
+
+
+Started GET "/assets/api/v1/search.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-05-28 22:08:55 -0700
+
+
+Started GET "/assets/api/v1/twitter.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-05-28 22:08:55 -0700
+
+
+Started GET "/assets/frontendtest.self-ac4e657fb0247a1b7e0340ed48864828bb4febb4b63d798bbe1dd0f679c6b296.css?body=1" for ::1 at 2015-05-28 22:08:55 -0700
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-05-28 22:08:55 -0700
+
+
+Started GET "/assets/application.self-f259c97789d07c6137b1a0679a74a979d6409a0c0c99479e70a4d43b3ed290c1.css?body=1" for ::1 at 2015-05-28 22:08:55 -0700
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-05-28 22:08:55 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-05-28 22:08:55 -0700
+
+
+Started GET "/assets/Parser.self-d24fee10c28ea634d391b0f4c0f880fa248b87879b13424b2ccdf9fe331414d3.js?body=1" for ::1 at 2015-05-28 22:08:55 -0700
+
+
+Started GET "/assets/SocialMediaManager.self-7d2f46fd825bc8b6efa9c198438a6e3306186f9e8641c20d52741c54fb430253.js?body=1" for ::1 at 2015-05-28 22:08:55 -0700
+
+
+Started GET "/assets/api/v1/instagram.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-05-28 22:08:55 -0700
+
+
+Started GET "/assets/api/v1/twitter.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-05-28 22:08:55 -0700
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-05-28 22:08:55 -0700
+
+
+Started GET "/assets/APIClient.self-b28747fcbf1e07722428dfac64e8942b26a6d217221c9a69ada063ccdef8ae82.js?body=1" for ::1 at 2015-05-28 22:08:55 -0700
+
+
+Started GET "/assets/SearchBar.self-18af67f5b80f819fd9ca6f7384be0086f3b8be48c7b55fe22f0ab252f2a409ec.js?body=1" for ::1 at 2015-05-28 22:08:55 -0700
+
+
+Started GET "/assets/api/base.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-05-28 22:08:55 -0700
+
+
+Started GET "/assets/api/v1/search.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-05-28 22:08:55 -0700
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for ::1 at 2015-05-28 22:08:55 -0700
+
+
+Started GET "/assets/test.self-91d1a6c5d9dedc076092464101510fae28b3f293d9fae49669cee664905cde13.js?body=1" for ::1 at 2015-05-28 22:08:55 -0700
+
+
+Started GET "/assets/application.self-ddbf177977ba26cd2c1b1eb26af2efce4da86e57a77ebfd1047e49bb85d11f33.js?body=1" for ::1 at 2015-05-28 22:08:55 -0700
+
+
+Started GET "/" for ::1 at 2015-05-28 22:09:11 -0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 170ms (Views: 169.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/api/base.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-05-28 22:09:11 -0700
+
+
+Started GET "/assets/api/v1/instagram.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-05-28 22:09:11 -0700
+
+
+Started GET "/assets/api/v1/search.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-05-28 22:09:11 -0700
+
+
+Started GET "/assets/frontendtest.self-ac4e657fb0247a1b7e0340ed48864828bb4febb4b63d798bbe1dd0f679c6b296.css?body=1" for ::1 at 2015-05-28 22:09:11 -0700
+
+
+Started GET "/assets/api/v1/twitter.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-05-28 22:09:11 -0700
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-05-28 22:09:11 -0700
+
+
+Started GET "/assets/application.self-f259c97789d07c6137b1a0679a74a979d6409a0c0c99479e70a4d43b3ed290c1.css?body=1" for ::1 at 2015-05-28 22:09:11 -0700
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-05-28 22:09:11 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-05-28 22:09:11 -0700
+
+
+Started GET "/assets/Parser.self-d24fee10c28ea634d391b0f4c0f880fa248b87879b13424b2ccdf9fe331414d3.js?body=1" for ::1 at 2015-05-28 22:09:11 -0700
+
+
+Started GET "/assets/SocialMediaManager.self-7d2f46fd825bc8b6efa9c198438a6e3306186f9e8641c20d52741c54fb430253.js?body=1" for ::1 at 2015-05-28 22:09:11 -0700
+
+
+Started GET "/assets/api/v1/instagram.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-05-28 22:09:11 -0700
+
+
+Started GET "/assets/api/v1/twitter.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-05-28 22:09:11 -0700
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-05-28 22:09:11 -0700
+
+
+Started GET "/assets/APIClient.self-b28747fcbf1e07722428dfac64e8942b26a6d217221c9a69ada063ccdef8ae82.js?body=1" for ::1 at 2015-05-28 22:09:11 -0700
+
+
+Started GET "/assets/SearchBar.self-1f8ad38bab5fc3a6a0ed14df73d73087ba449c255dfa6524cd1484ad53e8858b.js?body=1" for ::1 at 2015-05-28 22:09:11 -0700
+
+
+Started GET "/assets/api/base.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-05-28 22:09:11 -0700
+
+
+Started GET "/assets/api/v1/search.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-05-28 22:09:11 -0700
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for ::1 at 2015-05-28 22:09:11 -0700
+
+
+Started GET "/assets/test.self-91d1a6c5d9dedc076092464101510fae28b3f293d9fae49669cee664905cde13.js?body=1" for ::1 at 2015-05-28 22:09:11 -0700
+
+
+Started GET "/assets/application.self-ddbf177977ba26cd2c1b1eb26af2efce4da86e57a77ebfd1047e49bb85d11f33.js?body=1" for ::1 at 2015-05-28 22:09:11 -0700
+
+
+Started GET "/" for ::1 at 2015-05-28 22:09:54 -0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 176ms (Views: 175.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/api/base.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-05-28 22:09:54 -0700
+
+
+Started GET "/assets/api/v1/instagram.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-05-28 22:09:54 -0700
+
+
+Started GET "/assets/api/v1/search.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-05-28 22:09:54 -0700
+
+
+Started GET "/assets/api/v1/twitter.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-05-28 22:09:54 -0700
+
+
+Started GET "/assets/frontendtest.self-ac4e657fb0247a1b7e0340ed48864828bb4febb4b63d798bbe1dd0f679c6b296.css?body=1" for ::1 at 2015-05-28 22:09:54 -0700
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-05-28 22:09:54 -0700
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-05-28 22:09:54 -0700
+
+
+Started GET "/assets/application.self-f259c97789d07c6137b1a0679a74a979d6409a0c0c99479e70a4d43b3ed290c1.css?body=1" for ::1 at 2015-05-28 22:09:54 -0700
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-05-28 22:09:54 -0700
+
+
+Started GET "/assets/APIClient.self-b28747fcbf1e07722428dfac64e8942b26a6d217221c9a69ada063ccdef8ae82.js?body=1" for ::1 at 2015-05-28 22:09:54 -0700
+
+
+Started GET "/assets/SearchBar.self-18e08ffe904c1858d0ea89971bda4ee9fb3417ea29d8556f45fffffd38a3bcc4.js?body=1" for ::1 at 2015-05-28 22:09:54 -0700
+
+
+Started GET "/assets/api/base.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-05-28 22:09:54 -0700
+
+
+Started GET "/assets/api/v1/search.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-05-28 22:09:54 -0700
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for ::1 at 2015-05-28 22:09:54 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-05-28 22:09:54 -0700
+
+
+Started GET "/assets/Parser.self-d24fee10c28ea634d391b0f4c0f880fa248b87879b13424b2ccdf9fe331414d3.js?body=1" for ::1 at 2015-05-28 22:09:54 -0700
+
+
+Started GET "/assets/SocialMediaManager.self-7d2f46fd825bc8b6efa9c198438a6e3306186f9e8641c20d52741c54fb430253.js?body=1" for ::1 at 2015-05-28 22:09:54 -0700
+
+
+Started GET "/assets/api/v1/instagram.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-05-28 22:09:54 -0700
+
+
+Started GET "/assets/api/v1/twitter.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-05-28 22:09:55 -0700
+
+
+Started GET "/assets/test.self-91d1a6c5d9dedc076092464101510fae28b3f293d9fae49669cee664905cde13.js?body=1" for ::1 at 2015-05-28 22:09:55 -0700
+
+
+Started GET "/assets/application.self-ddbf177977ba26cd2c1b1eb26af2efce4da86e57a77ebfd1047e49bb85d11f33.js?body=1" for ::1 at 2015-05-28 22:09:55 -0700
+
+
+Started GET "/" for ::1 at 2015-05-28 22:10:37 -0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 167ms (Views: 166.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/api/base.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-05-28 22:10:37 -0700
+
+
+Started GET "/assets/api/v1/instagram.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-05-28 22:10:37 -0700
+
+
+Started GET "/assets/frontendtest.self-ac4e657fb0247a1b7e0340ed48864828bb4febb4b63d798bbe1dd0f679c6b296.css?body=1" for ::1 at 2015-05-28 22:10:37 -0700
+
+
+Started GET "/assets/api/v1/search.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-05-28 22:10:37 -0700
+
+
+Started GET "/assets/api/v1/twitter.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-05-28 22:10:37 -0700
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-05-28 22:10:37 -0700
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-05-28 22:10:37 -0700
+
+
+Started GET "/assets/application.self-f259c97789d07c6137b1a0679a74a979d6409a0c0c99479e70a4d43b3ed290c1.css?body=1" for ::1 at 2015-05-28 22:10:37 -0700
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-05-28 22:10:37 -0700
+
+
+Started GET "/assets/APIClient.self-b28747fcbf1e07722428dfac64e8942b26a6d217221c9a69ada063ccdef8ae82.js?body=1" for ::1 at 2015-05-28 22:10:37 -0700
+
+
+Started GET "/assets/SearchBar.self-d00f0dd83a352401d6ff2e421d2f7e2e9f0f2b72e58c07c422cb59fccf07a6aa.js?body=1" for ::1 at 2015-05-28 22:10:37 -0700
+
+
+Started GET "/assets/api/base.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-05-28 22:10:37 -0700
+
+
+Started GET "/assets/api/v1/search.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-05-28 22:10:37 -0700
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for ::1 at 2015-05-28 22:10:37 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-05-28 22:10:37 -0700
+
+
+Started GET "/assets/Parser.self-d24fee10c28ea634d391b0f4c0f880fa248b87879b13424b2ccdf9fe331414d3.js?body=1" for ::1 at 2015-05-28 22:10:37 -0700
+
+
+Started GET "/assets/SocialMediaManager.self-7d2f46fd825bc8b6efa9c198438a6e3306186f9e8641c20d52741c54fb430253.js?body=1" for ::1 at 2015-05-28 22:10:37 -0700
+
+
+Started GET "/assets/api/v1/twitter.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-05-28 22:10:37 -0700
+
+
+Started GET "/assets/api/v1/instagram.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-05-28 22:10:37 -0700
+
+
+Started GET "/assets/test.self-91d1a6c5d9dedc076092464101510fae28b3f293d9fae49669cee664905cde13.js?body=1" for ::1 at 2015-05-28 22:10:37 -0700
+
+
+Started GET "/assets/application.self-ddbf177977ba26cd2c1b1eb26af2efce4da86e57a77ebfd1047e49bb85d11f33.js?body=1" for ::1 at 2015-05-28 22:10:37 -0700
+
+
+Started GET "/" for ::1 at 2015-05-28 22:10:52 -0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 161ms (Views: 160.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/api/base.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-05-28 22:10:52 -0700
+
+
+Started GET "/assets/api/v1/instagram.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-05-28 22:10:52 -0700
+
+
+Started GET "/assets/api/v1/search.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-05-28 22:10:52 -0700
+
+
+Started GET "/assets/api/v1/twitter.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-05-28 22:10:52 -0700
+
+
+Started GET "/assets/frontendtest.self-ac4e657fb0247a1b7e0340ed48864828bb4febb4b63d798bbe1dd0f679c6b296.css?body=1" for ::1 at 2015-05-28 22:10:52 -0700
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-05-28 22:10:52 -0700
+
+
+Started GET "/assets/application.self-f259c97789d07c6137b1a0679a74a979d6409a0c0c99479e70a4d43b3ed290c1.css?body=1" for ::1 at 2015-05-28 22:10:52 -0700
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-05-28 22:10:52 -0700
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-05-28 22:10:52 -0700
+
+
+Started GET "/assets/APIClient.self-b28747fcbf1e07722428dfac64e8942b26a6d217221c9a69ada063ccdef8ae82.js?body=1" for ::1 at 2015-05-28 22:10:52 -0700
+
+
+Started GET "/assets/SearchBar.self-9b3014fb77d2413c183f22d2442d952cba7f946d1f370727cce3acfe21ec5082.js?body=1" for ::1 at 2015-05-28 22:10:52 -0700
+
+
+Started GET "/assets/api/base.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-05-28 22:10:52 -0700
+
+
+Started GET "/assets/api/v1/search.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-05-28 22:10:52 -0700
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for ::1 at 2015-05-28 22:10:52 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-05-28 22:10:52 -0700
+
+
+Started GET "/assets/Parser.self-d24fee10c28ea634d391b0f4c0f880fa248b87879b13424b2ccdf9fe331414d3.js?body=1" for ::1 at 2015-05-28 22:10:52 -0700
+
+
+Started GET "/assets/SocialMediaManager.self-7d2f46fd825bc8b6efa9c198438a6e3306186f9e8641c20d52741c54fb430253.js?body=1" for ::1 at 2015-05-28 22:10:52 -0700
+
+
+Started GET "/assets/api/v1/instagram.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-05-28 22:10:52 -0700
+
+
+Started GET "/assets/api/v1/twitter.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-05-28 22:10:52 -0700
+
+
+Started GET "/assets/test.self-91d1a6c5d9dedc076092464101510fae28b3f293d9fae49669cee664905cde13.js?body=1" for ::1 at 2015-05-28 22:10:52 -0700
+
+
+Started GET "/assets/application.self-ddbf177977ba26cd2c1b1eb26af2efce4da86e57a77ebfd1047e49bb85d11f33.js?body=1" for ::1 at 2015-05-28 22:10:52 -0700
+
+
+Started GET "/" for ::1 at 2015-05-28 22:11:15 -0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 169ms (Views: 168.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/api/base.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-05-28 22:11:15 -0700
+
+
+Started GET "/assets/api/v1/instagram.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-05-28 22:11:15 -0700
+
+
+Started GET "/assets/frontendtest.self-ac4e657fb0247a1b7e0340ed48864828bb4febb4b63d798bbe1dd0f679c6b296.css?body=1" for ::1 at 2015-05-28 22:11:15 -0700
+
+
+Started GET "/assets/api/v1/search.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-05-28 22:11:15 -0700
+
+
+Started GET "/assets/api/v1/twitter.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-05-28 22:11:15 -0700
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-05-28 22:11:15 -0700
+
+
+Started GET "/assets/application.self-f259c97789d07c6137b1a0679a74a979d6409a0c0c99479e70a4d43b3ed290c1.css?body=1" for ::1 at 2015-05-28 22:11:15 -0700
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-05-28 22:11:15 -0700
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-05-28 22:11:15 -0700
+
+
+Started GET "/assets/APIClient.self-b28747fcbf1e07722428dfac64e8942b26a6d217221c9a69ada063ccdef8ae82.js?body=1" for ::1 at 2015-05-28 22:11:15 -0700
+
+
+Started GET "/assets/SearchBar.self-983e054f6238e09b617de82834aa8e044eb49c41d5a8ea35e54dc2e7ba7d9396.js?body=1" for ::1 at 2015-05-28 22:11:15 -0700
+
+
+Started GET "/assets/api/base.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-05-28 22:11:15 -0700
+
+
+Started GET "/assets/api/v1/search.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-05-28 22:11:15 -0700
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for ::1 at 2015-05-28 22:11:15 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-05-28 22:11:15 -0700
+
+
+Started GET "/assets/Parser.self-d24fee10c28ea634d391b0f4c0f880fa248b87879b13424b2ccdf9fe331414d3.js?body=1" for ::1 at 2015-05-28 22:11:15 -0700
+
+
+Started GET "/assets/SocialMediaManager.self-7d2f46fd825bc8b6efa9c198438a6e3306186f9e8641c20d52741c54fb430253.js?body=1" for ::1 at 2015-05-28 22:11:15 -0700
+
+
+Started GET "/assets/api/v1/instagram.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-05-28 22:11:15 -0700
+
+
+Started GET "/assets/api/v1/twitter.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-05-28 22:11:15 -0700
+
+
+Started GET "/assets/test.self-91d1a6c5d9dedc076092464101510fae28b3f293d9fae49669cee664905cde13.js?body=1" for ::1 at 2015-05-28 22:11:15 -0700
+
+
+Started GET "/assets/application.self-ddbf177977ba26cd2c1b1eb26af2efce4da86e57a77ebfd1047e49bb85d11f33.js?body=1" for ::1 at 2015-05-28 22:11:15 -0700

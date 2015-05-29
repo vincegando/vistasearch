@@ -9,11 +9,11 @@
           <button class="btn btn-default" type="button" onclick="SearchBar.queryText()"><i class="fa fa-search"></i></button>
           <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false">Filter <span class="caret"></span></button>
           <ul class="dropdown-menu dropdown-menu-right" role="menu">
-            <li><button class="plain-button" id= "button" type="button" onclick="SearchBar.filter('SocialMediaType.Twitter') SearchBar.selectText()">Twitter</button></li>
-            <li><button class="plain-button" id= "button" type="button" onclick="SearchBar.filter('SocialMediaType.Instagram') SearchBar.selectText()">Instagram</button></li>
-            <li><button class="plain-button" id= "button" type="button" onclick="SearchBar.filter('SocialMediaType.Soundcloud') SearchBar.selectText()">Soundcloud</button></li>
+            <li><button class="plain-button" type="button" onclick="SearchBar.filter('SocialMediaType.Twitter',0)">Twitter</button></li>
+            <li><button class="plain-button" type="button" onclick="SearchBar.filter('SocialMediaType.Instagram',1)">Instagram</button></li>
+            <li><button class="plain-button" type="button" onclick="SearchBar.filter('SocialMediaType.Soundcloud',2)">Soundcloud</button></li>
             <li role="presentation" class="divider"></li>
-            <li><button class="plain-button" type="button" onclick="SearchBar.filter('SocialMediaType.All')">Clear Filter</button></li>
+            <li><button class="plain-button" type="button" onclick="SearchBar.filter('SocialMediaType.All',3)">Clear Filter</button></li>
           </ul>
         </div>
       </div>
