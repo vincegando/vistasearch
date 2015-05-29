@@ -1,5 +1,3 @@
-require "soundcloud"
-
 class SoundcloudService
   def initialize()
     unless Rails.env.production?

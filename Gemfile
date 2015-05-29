@@ -27,7 +27,6 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 # Twitter api wrapper
 gem 'twitter'
 
-gem 'soundcloud'
 
 # HTTP Requests
 gem 'httparty'
