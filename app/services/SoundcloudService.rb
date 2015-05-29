@@ -19,12 +19,15 @@ class SoundcloudService
 
   def get_oembed(sounds)
     embeds = []
-    c = Soundcloud.new(:client_id => @auth)
     sounds.each do |sound|
-      embed_info = c.get('/oembed', :url => sound['permalink_url'])
-      embeds.append embed_info['html']
+      r = HTTParty.get("http://soundcloud.com/oembed?format=json&url=#{sound['permalink_url']}")
+      begin
+        embed_info = JSON.parse(r.body)
+        embeds.append embed_info['html']
+      rescue Exception => e
+        # Do nothing if response request is invalid
+      end
     end
-    puts embeds
     return SoundcloudService.format_json(embeds)
   end
 
