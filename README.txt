@@ -54,5 +54,11 @@ How to use:
 3. Press enter or click the magnifying glass 
 4. View results
 
+Bugs:
+1. When I chose instgram only, pictures could not be loaded.
+2. After switching between different filters, it stopped working.
+3. We should also highlight which filter is currently being used
+4. It would be much better to refresh the result when a filter is set
+
 Viewing the site:
 http://vistasearch.herokuapp.com/
