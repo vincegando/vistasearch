@@ -2,7 +2,7 @@ Running locally:
 
 1. First install rails with this url -> http://railsapps.github.io/installrubyonrails-mac.html
 2. Register with twitter and instagram to get your own api keys
-3. Add a auth.json to src directory with your twitter and instagram api tokens in this format shown below: 
+3. Add an auth.json to root directory with your twitter and instagram api tokens in this format shown below: 
    Note: An auth.json file will be supplied to the TA in the zipped project files
 {
 	"twitter_consumer_key": "YOUR_CONSUMER_KEY",
@@ -11,11 +11,10 @@ Running locally:
   "twitter_access_token_secret": "YOUR_ACCESS_TOKEN_SECRET",
   "instagram_auth": "YOUR_INSTAGRAM_AUTH_TOKEN"
 }
-4. cd into the src directory
-5. Run "bundle install" to install the project dependencies
-6. Run “rails s” to start the local development server
-7. Open a web browser and go to http://localhost:3000
-8. The application is up and running locally 
+4. Run "bundle install" to install the project dependencies
+5. Run “rails s” to start the local development server
+6. Open a web browser and go to http://localhost:3000
+7. The application is up and running locally 
 
 Running on a server:
 
