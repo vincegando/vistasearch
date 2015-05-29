@@ -37605,3 +37605,28 @@ Processing by Api::V1::SearchController#index as JSON
   Parameters: {"q"=>["skate"], "filter"=>["Twitter", "Instagram", "Soundcloud"]}
   Rendered api/v1/search/index.json.jbuilder (3.5ms)
 Completed 200 OK in 2867ms (Views: 8.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-05-28 21:13:14 -0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 265ms (Views: 255.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/test" for ::1 at 2015-05-28 21:13:17 -0700
+Processing by FrontendtestController#index as HTML
+  Rendered frontendtest/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 59ms (Views: 58.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-05-28 21:13:37 -0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 57ms (Views: 57.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/search?q%5B%5D=hello&filter%5B%5D=Twitter&filter%5B%5D=Instagram&filter%5B%5D=Soundcloud" for ::1 at 2015-05-28 21:14:22 -0700
+Processing by Api::V1::SearchController#index as JSON
+  Parameters: {"q"=>["hello"], "filter"=>["Twitter", "Instagram", "Soundcloud"]}
+  Rendered api/v1/search/index.json.jbuilder (3.2ms)
+Completed 200 OK in 3684ms (Views: 7.6ms | ActiveRecord: 0.0ms)
