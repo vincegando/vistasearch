@@ -46,3 +46,12 @@ $(document).ready(function() {
       }
   });
 });
+
+//Highlight button when clicked
+$(document).ready(function () {
+    $('.dropdown-menu dropdown-menu-right').on('click', 'li', function () {
+        $(this).effect("highlight", {
+            color: 'blue'
+        }, 3000);
+    });
+});
