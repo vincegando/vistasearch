@@ -1,0 +1,88 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+
+.input-group {
+	margin-top: 8px;
+	width: 60%;
+}
+
+@-moz-document url-prefix() { 
+  @media screen and (min-width: 600px) {
+	.input-group {
+		max-width: 50%;
+		min-width: 50%;
+		width: 800px;
+	}
+   }
+}
+
+.navbar {
+	height: 52px;
+}
+
+.navbar-header {
+	left: 25%;
+}
+
+#content-wrapper {
+	margin-top: 60px;
+	background-color: rgb(242, 242, 242);
+}
+
+html {
+	background-color: rgb(242, 242, 242);
+}
+
+.plain-button {
+	padding-right: 50px;
+	border: none;
+	background: none;
+}
+
+.fa-spinner {
+	margin-left: 50%;
+	margin-top: 25%;
+	visibility: hidden;
+}
+
+.main-content-list {
+	list-style-type: none;
+	max-width: 100%;
+	min-width: 50%;
+	width: 500px;
+	margin-left: auto;
+	margin-right: auto;
+	.main-content-list-item {
+		height: 100px;
+		margin-top: 10px;
+		width: 100%;
+		margin-right: auto;
+		margin-left: auto;
+	}
+}
+
+a:link {
+	color: black;
+}
+
+a:hover {
+	text-decoration: none;
+}
+a:active {
+    text-decoration: none;
+}
+

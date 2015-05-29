@@ -1,0 +1,1 @@
+json.posts @response.flatten 1
